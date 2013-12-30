@@ -1,0 +1,8 @@
+
+Name                 Seasons  
+Author               "MiriW, Smodd, Master-Guy"  
+Description          "This mod is updated regularly, to reflect both the season and current alpha. We hope to provide a fun experience arossnationalities and boundaries."  
+Version              v0.1  
+Date                 29/12/2013  
+URL                  www.prison-architect.com  
+FileID               "-1"

@@ -1,0 +1,1388 @@
+﻿
+# =============================================================================
+# Basic dialog strings
+# =============================================================================
+
+dialog_new                              New
+dialog_load                             Load
+dialog_save                             Save
+dialog_saveas                           Save As
+dialog_delete                           Delete
+dialog_width                            Width
+dialog_height                           Height
+dialog_name                             Name
+dialog_type                             Type
+dialog_x                                X
+dialog_y                                Y
+dialog_z								Z
+dialog_w                                W
+dialog_h                                H
+dialog_exit                             Exit
+dialog_cancel                           Cancel
+dialog_ok                               Ok
+dialog_open                             Open
+dialog_close                            Close
+dialog_closed                           Closed
+dialog_add                              Add
+dialog_up                               Up
+dialog_down                             Down
+dialog_yes                              Yes
+dialog_no                               No
+dialog_loading                          Loading...
+dialog_low                              Low
+dialog_medium                           Medium
+dialog_high                             High
+dialog_none                             None
+ellipsis                                ...
+
+
+# =============================================================================
+# Dialog Editor
+# =============================================================================
+
+dialogeditor_title                      Dialog Editor
+dialogeditor_back                       Back
+dialogeditor_front                      Front
+dialogeditor_reloadlanguage             Reload Language
+dialogeditor_test                       Test
+dialogeditor_window                     Window
+dialogeditor_grid                       Grid
+dialogeditor_caption                    Caption
+dialogeditor_component                  Component
+dialogeditor_select						Select
+dialogeditor_create						Create
+dialogeditor_background                 BG img
+dialogeditor_panel                      Panel
+
+dialogcomponent_custom                  Custom
+dialogcomponent_button                  Button
+dialogcomponent_container               Container
+dialogcomponent_caption                 Caption
+dialogcomponent_titlecaption            TitleCaption
+dialogcomponent_checkbox                Checkbox
+dialogcomponent_inputfield              InputField
+dialogcomponent_inputslider             InputSlider
+dialogcomponent_dropdownmenu            DropDownMenu
+dialogcomponent_selectionlist           SelectionList
+dialogcomponent_selectionlistitem       SelectionListItem
+dialogcomponent_scrollbar               Scrollbar
+dialogcomponent_progressbar             ProgressBar
+dialogcomponent_canvas                  Canvas
+dialogcomponent_iconbox					IconBox
+
+dialogposition_absolute                 Absolute
+dialogposition_relative                 Relative
+dialogposition_scaled                   Scaled
+
+
+# =============================================================================
+# Profiler
+# =============================================================================
+
+profiler_title                          Profiler
+profiler_name                           Name
+profiler_timings                        Timings
+profiler_totaltime                      Total
+profiler_glfinishcaption                glFinish
+profiler_reset                          Reset
+
+
+# =============================================================================
+# Sound tools
+# =============================================================================
+
+soundchannelviewer_title                Sound Channels
+soundeditor_title                       Sound Editor
+soundinstanceeditor_title				Sound Instance Editor
+
+soundeditor_positiontitle		        Position Type
+soundeditor_instancetitle		        Instance Type
+soundeditor_looptitle			        Loop Type
+soundeditor_sourcetypetitle		        Sound Type
+soundeditor_soundnametitle		        Sound Name
+
+soundeditor_volumetitle			        Volume
+soundeditor_frequencytitle              Frequency
+soundeditor_mindistancetitle            Min Distance
+soundeditor_attacktitle                 Attack
+soundeditor_sustaintitle                Sustain
+soundeditor_releasetitle                Release
+soundeditor_loopdelaytitle              Loop Delay
+soundeditor_dsptitle                    DSP
+soundeditor_nexteventtitle              Next Event
+
+soundeditor_play                        Play
+soundeditor_stop                        Stop
+
+soundparametereditor_title              Sound Parameter
+soundparametereditor_typetitle          Type
+soundparametereditor_linktitle          Linked To
+soundparametereditor_updatetitle        Update Type
+soundparametereditor_smoothing          Smoothing
+soundparametereditor_chaintitle         Chain
+
+soundeditor_newdsp                      Add DSP
+sounddspeditor_title                    DSP Editor
+samplebankeditor_title                  Sample Bank Editor
+samplebankeditor_addsample              Add Sound
+samplebank                              (Sample Bank)
+
+
+# =============================================================================
+# Interface Mode
+# =============================================================================
+
+interfacemode_done                            Done
+interfacemode_destroy                         Destroy
+interfacemode_foundations				      Foundations
+interfacemode_construction                    Materials
+interfacemode_planning                        Planning
+interfacemode_objects                         Objects
+interfacemode_designation                     Rooms
+interfacemode_utilities                       Utilities
+interfacemode_staff                           Staff
+interfacemode_deployment                      Deployment
+interfacemode_prisoners                       Prisoners
+interfacemode_needs                           Needs
+interfacemode_threats                         Threats
+interfacemode_overlays                        Overlays
+interfacemode_research                        Bureaucracy
+interfacemode_emergencies                     Emergencies
+interfacemode_spawn                           (Spawn)
+interfacemode_clone                           Clone
+interfacemode_properties                      (Properties)
+interfacemode_contraband                      Contraband
+
+interfaceoverlay_security                       Security
+interfaceoverlay_patrols                        Patrols
+interfaceoverlay_decay                          Decay
+interfaceoverlay_territory                      Territory
+interfaceoverlay_contraband                     Contraband
+
+interfaceproperty_indoor                        Indoor
+interfaceproperty_visible                       Visible
+interfaceproperty_territoryprisoner             Gangs
+interfaceproperty_territoryguard                Guards
+interfaceproperty_sectorprisoner                Rioting
+interfaceproperty_tunnel                        Tunnel
+
+interfacedeployment_guards                      Guards
+interfacedeployment_patrols                     Guard Patrols
+interfacedeployment_dogpatrols                  Dog Patrols
+interfacedeployment_jobs                        Jobs
+interfacedeployment_securearea                  SecureArea
+interfacedeployment_Nozone                      Gen Pop
+interfacedeployment_sharedzone                  Shared
+interfacedeployment_staffonlyzone               Staff Only
+interfacedeployment_maxseczone                  Max Sec
+interfacedeployment_minseczone                  Min Sec
+interfacedeployment_unlockedzone                Unlocked
+interfacedeployment_zonered                     Red Wing
+interfacedeployment_zonegreen                   Green Wing
+interfacedeployment_zoneblue                    Blue Wing
+interfacedeployment_zoneyellow                  Yellow Wing
+
+interfaceplanning_wall							Walls
+interfaceplanning_object						Objects
+interfaceplanning_route							Pathways
+
+interfacecontraband_source                      Dangers
+interfacecontraband_day                         -24 Hours
+interfacecontraband_week                        -7 days
+interfacecontraband_alltime                     All Time
+
+interfacetopbar_todo							Todo list
+interfacetopbar_balance							Bank *B
+interfacetopbar_budget							Cashflow *C
+interfacetopbar_income							Income *I
+interfacetopbar_expenses						Costs *C
+interfacetopbar_day								DAY *D
+
+interfacetopbar_title_balance					Bank Balance
+interfacetopbar_title_budget					Daily Cashflow
+interfacetopbar_title_cctv						CCTV
+interfacetopbar_title_day						Day
+interfacetopbar_title_prisoners					Prisoners
+interfacetopbar_title_guards					Guards
+interfacetopbar_title_tension                   Danger
+
+interfacetopbar_tooltip_balance					How much cash you have in the bank.
+interfacetopbar_tooltip_budget					The amount of money you will receive each day,based on your current expenses and income.
+interfacetopbar_tooltip_cctv					The number of CCTV cameras and monitors you currently have.
+interfacetopbar_tooltip_day						How long you've been running your prison.
+interfacetopbar_tooltip_prisoners				The number of prisoners you currently have, and how many you can hold, in your prison.
+interfacetopbar_tooltip_guards					How many guards you have available for work in your prison.
+interfacetopbar_tooltip_tension                 The overall danger level of your prison, according to your security chief
+
+interfacetopbar_tooltip_totalguards             *X total guards
+interfacetopbar_tooltip_guardincapacitated      *X Incapacitated
+interfacetopbar_tooltip_guardstationed          *X Stationed 
+interfacetopbar_tooltip_guardpatrolling         *X Patrolling
+interfacetopbar_tooltip_guardavailable          *X Available
+interfacetopbar_tooltip_guardresting            *X Resting
+interfacetopbar_tooltip_guardactive             (*X Responding to incidents)
+interfacetopbar_tooltip_guarddoingjob           (*X Assigned job)
+interfacetopbar_tooltip_idle                    (*X are idle)
+
+interfacetopbar_budget_moneyin					Money In: $*M /day
+interfacetopbar_budget_moneyout					Money Out: $*M /day
+
+interfacetopbar_prisoners_types					Currently holding *X Prisoners:
+interfacetopbar_prisoners_capacity              Maximum safe capacity: *X
+
+interfacetopbar_cctv_current					Currently running *C cameras
+interfacetopbar_cctv_cap						Space for *C cameras
+
+interfacetopbar_tension_currentlevel            The danger level is *X
+interfacetopbar_tension_increasing              and is increasing
+interfacetopbar_tension_decreasing              and is decreasing
+interfacetopbar_tension_description             FACTORS:
+interfacetopbar_tension_happyprisoners          - *X prisoners say they are well treated
+interfacetopbar_tension_unhappyprisoners        + *X prisoners have serious complaints
+interfacetopbar_tension_lockedupprisoners       + *X prisoners are locked up for no reason
+interfacetopbar_tension_riotingprisoners        + *X prisoners are rioting
+interfacetopbar_tension_wellfedprisoners        - *X prisoners are well fed
+interfacetopbar_tension_suppressedprisoners     = *X prisoners are suppressed (compliant)
+interfacetopbar_tension_activeriotguards        + *X riot police are on site
+interfacetopbar_tension_recentdeaths            + *X people have been killed recently
+interfacetopbar_tension_recentsearches          + *X prisoners have been unnecessarily searched recently
+interfacetopbar_tension_recentpunishments       = (DETERRENT) *X punishments have been handed down recently
+
+interface_foundationsinprogress                 Foundations in progress
+riot_underway                                   RIOT UNDERWAY
+riot_status_prisoners                           *X prisoners are rioting
+shakedown_underway                              SHAKEDOWN UNDERWAY
+shakedown_found                                 Found:
+
+gameover_caption                              Press ESC to continue
+
+
+# =============================================================================
+# Hardware Compatibility
+# =============================================================================
+
+hardware_compat_title					Hardware Compatibility Test
+hardware_compat_message					With your permission, we would like to collect the following hardware data from your computer.\n\nThis information is completely anonymous and will help us to ensure Prison Architect is supported on the widest possible range of computer hardware.\n\nThank you!
+hardware_compat_accept					Accept
+hardware_compat_decline					Decline
+
+
+# =============================================================================
+# Build Toolbar
+# =============================================================================
+
+buildtoolbar_title                      Build
+buildtoolbar_reports                    Reports
+buildtoolbar_bangup                     Bangup
+buildtoolbar_lockdown                   Lockdown
+buildtoolbar_shakedown                  Shakedown
+
+buildtoolbar_tooltip_reports			Open up the reports window to see information on your prisoners, staff, income, grants, and more.
+buildtoolbar_tooltip_bangup				Send all (willing) prisoners back to their cells. This will make your prisoners very angry if you leave them locked up for too long.
+buildtoolbar_tooltip_lockdown			Instantly lock all doors in the prison.
+buildtoolbar_tooltip_shakedown          Order an immediate search of all Cells. This will take some time and will annoy the hell out of your inmates.
+
+buildtoolbar_cost						Cost: $*C
+buildtoolbar_cost_sqrft					Cost: $*C /sq
+buildtoolbar_wages						Wages : $*W per day
+buildtoolbar_outdoor					Outdoor only
+buildtoolbar_indoor						Indoor only
+buildtoolbar_walk_speed					Walk Speed : *S
+buildtoolbar_walk_speed_slow			Slow
+buildtoolbar_walk_speed_norm			Normal
+buildtoolbar_walk_speed_fast			Fast
+buildtoolbar_locked						LOCKED (You require *B)
+buildtoolbar_room						Room
+
+buildtoolbar_popup_foundations			Construct/Demolish buildings in order to shape your prison.
+buildtoolbar_popup_construction			Different types of floors and walls.
+buildtoolbar_popup_planning				Plan out your prison without the fear of workers actually doing anything.
+buildtoolbar_popup_designation			Designate areas of your prison with a specific function.
+buildtoolbar_popup_objects				Place useful items around your prison.
+buildtoolbar_popup_overlays				Visually identify weaknesses in your prison's layout.
+buildtoolbar_popup_utilities			Plumbing and electrical systems.
+buildtoolbar_popup_staff				Employ the necessary people to keep your prison running.
+buildtoolbar_popup_deployment			Assign staff to areas of your prison.
+buildtoolbar_popup_research				Unlock new possibilities for your prison.
+buildtoolbar_popup_emergencies			Call in the emergency services if things take a turn for the worse.
+buildtoolbar_popup_spawn				Spawn? The fuck does this do?
+buildtoolbar_popup_clone				Laziness is the mother of all invention.
+buildtoolbar_popup_properties			Find out about shit.
+buildtoolbar_popup_contraband           Show the sources of Contraband, and all recently recovered contraband in your prison
+
+buildtoolbar_popup_room_cell			Where your prisoners live.
+buildtoolbar_popup_room_holdingcell		A place that new recruits are put while a cell is found for them.
+buildtoolbar_popup_room_solitary		An isolated form of imprisonment for the worst of the worst.
+buildtoolbar_popup_room_canteen			Where your prisoners will take their afternoon tea.
+buildtoolbar_popup_room_kitchen			Area for cooks to prepare food for your prisoners.
+buildtoolbar_popup_room_shower			Used to keep your prisoners squeaky clean, and lice free.
+buildtoolbar_popup_room_yard			Let your prisoners see the sun for a few hours a day under the watchful eye of your sniper towers.
+buildtoolbar_popup_room_storage			Area designated to hold any materials your prison staff need.
+buildtoolbar_popup_room_deliveries		Where your goods, materials, and prisoners are dropped off.
+buildtoolbar_popup_room_garbage			Where your waste is collected from.
+buildtoolbar_popup_room_execution		Where you send your prisoners to die.
+buildtoolbar_popup_room_workshop		Where you send your prisoners to die of boredom while making you car license plates.
+buildtoolbar_popup_room_security		Offices for your Officers.
+buildtoolbar_popup_room_office			An area for your administrative staff to work.
+buildtoolbar_popup_room_medicalward		Area for your medical staff to work.
+buildtoolbar_popup_room_morgue			Where you send your dead prisoners and staff to.
+buildtoolbar_popup_room_commonroom		Allowing your prisoners some free time to relax.
+buildtoolbar_popup_room_kennel          Where your dogs live.
+
+buildtoolbar_popup_obj_bed				Not too soft, not too hard, just right. Well, actually, really hard and too small.
+buildtoolbar_popup_obj_toilet			A basic human right, if you believe all those crackpots.
+buildtoolbar_popup_obj_table			Goes excellently with a chair.
+buildtoolbar_popup_obj_chair			Goes brilliantly with a table.
+buildtoolbar_popup_obj_bench			For sitting on.
+buildtoolbar_popup_obj_electricchair	Some like to dance around it, others lay presents under it, all love it.
+buildtoolbar_popup_obj_jaildoor			Keep your prisoners where they should be.
+buildtoolbar_popup_obj_jaildoorlarge	Keep lots of your prisoners where they should be.
+buildtoolbar_popup_obj_door				A simple door.
+buildtoolbar_popup_obj_solitarydoor		A heavyset jail door to stop even the hardest of prisoners from escaping.
+buildtoolbar_popup_obj_staffdoor		A stylish door for your non-criminal prison occupants.
+buildtoolbar_popup_obj_window			To glimpse the sun through.
+buildtoolbar_popup_obj_windowlarge		To glimpse lots of the sun through.
+buildtoolbar_popup_obj_tree				Taking steps against global warming is all of our responsibility.
+buildtoolbar_popup_obj_light			Ensure you can see your prisoners at all times of the day.
+buildtoolbar_popup_obj_cooker			Give your prisoners the life of luxury with hot food.
+buildtoolbar_popup_obj_fridge			Keep your food supplies from rotting.
+buildtoolbar_popup_obj_bin				Tidiness is important when it comes to contraband.
+buildtoolbar_popup_obj_sink				All employees are required to wash their hands.
+buildtoolbar_popup_obj_servingtable		Dish up food to your prisoners.
+buildtoolbar_popup_obj_showerhead		The head of a shower. For showering.
+buildtoolbar_popup_obj_bookshelf		A shelf that holds books. 
+buildtoolbar_popup_obj_officedesk		Your staff need to write things down a lot. Give them a shiny office desk to do it on.
+buildtoolbar_popup_obj_filingcabinet	Your staff need to keep the things they write ordered nicely.
+buildtoolbar_popup_obj_medicalbed		A place to hold the narcotics until your prisoners steal them.
+buildtoolbar_popup_obj_morgueslab		Ensure the dead have a respectful place to rest before moving.
+buildtoolbar_popup_obj_drain			Remove water from the floor.
+buildtoolbar_popup_obj_sprinkler		Automatically sprays the area with water in the event of a fire.
+buildtoolbar_popup_obj_metaldetector	Find contraband on your prisoners that pass through these. Will require a guard to be nearby to take the contraband.
+buildtoolbar_popup_obj_weightsbench		Allow your prisoners to exercise, which keeps them happy.
+buildtoolbar_popup_obj_phonebooth		Prisoners might want to talk to their family, and these handy phonebooths let them.
+buildtoolbar_popup_obj_tv				Pacify your prisoners with mindnumbing mediocrity.
+buildtoolbar_popup_obj_largetv			Allow lots of your prisoners to share the experience of brain rot.
+buildtoolbar_popup_obj_pooltable		Remove the monotony of prison life with a game of pool. 
+buildtoolbar_popup_obj_cctv				Keep a eye on your prison without the need for guards to be everywhere at once. Need to be linked to a Cctv Monitor.
+buildtoolbar_popup_obj_cctvmonitor		Allows up to 6 Cctv cameras to be used when a guard is within range of this monitor.
+buildtoolbar_popup_obj_dismantleobject	Remove object from your prison.
+
+buildtoolbar_popup_staff_workman		Will build your prison for you, based on the plans you provide them.
+buildtoolbar_popup_staff_guard			Used to keep your prisoners in check and out of trouble.
+buildtoolbar_popup_staff_doctor			Automatically heals all nearby injured people, whether they are guards or prisoners.
+buildtoolbar_popup_staff_cook			Feeds your prisoners with the meals they prepare.
+buildtoolbar_popup_staff_gardener		Keeps your prison grounds nice and tidy.
+buildtoolbar_popup_staff_janitor		Keeps the inside of your prison nice and tidy.
+buildtoolbar_popup_staff_warden			The grand overseer of your prison. Required before you can research and hire advanced staff members.
+buildtoolbar_popup_staff_chief			An advanced staff member that gives access to the deployment, CCTV, and riot guards research items.
+buildtoolbar_popup_staff_foreman		An advanced staff member that allows you to gain access to Janitors and Gardeners.
+buildtoolbar_popup_staff_psychologist	An advanced staff member that allows you to gain an insight in to the minds of your prisoners. 
+buildtoolbar_popup_staff_accountant		An advanced staff member that gives access to grants.
+buildtoolbar_popup_staff_lawyer			An advanced staff member that helps you remove Penalty Points.
+
+buildtoolbar_popup_uts_powerstation		Generates electricity to be used in your prison.
+buildtoolbar_popup_uts_capacitor		Expands a power station that the capacitor is placed next to.
+buildtoolbar_popup_uts_electricalcable	Distributes electricity around your prison.
+buildtoolbar_popup_uts_powerswitch		Toggles the availability of electricity to any cable connected to it.
+buildtoolbar_popup_uts_waterpumpstation	Provides a source of water to your prison.
+buildtoolbar_popup_uts_pipevalve		Toggles the availability of water to any pipe connected to it.
+buildtoolbar_popup_uts_pipelarge		Distributes a large amount of water around your prison. Probably big enough for someone to crawl to freedom through five hundred yards of shit smelling foulness.
+buildtoolbar_popup_uts_pipesmall		Distributes water around your prison.
+buildtoolbar_popup_uts_dismantleutility	Remove a utility object from your prison.
+
+buildtoolbar_contraband_source          Shows all the locations around your prison that contraband could be stolen from
+buildtoolbar_contraband_day             Shows all contraband confiscated in the last 24 hours
+buildtoolbar_contraband_week            Shows all contraband confiscated in the last 7 days
+buildtoolbar_contraband_alltime         Shows all contraband confiscated in the history of your jail
+
+
+job_matsassigned                        Materials Assigned
+job_matsavailable                       Materials Available
+job_awaitingmaterials                   Awaiting Materials
+job_inprogress                          Job In Progress
+job_blocked                             Job (Blocked)
+job_queued                              Job (Queued)
+
+job_failed_noroute                      No Route
+job_failed_nomaterials                  No Materials
+job_failed_toodangerous                 Too Dangerous
+job_failed_materialsbeingcarried        Materials On Route
+
+job_rightclicktocancel                  Right Click to cancel
+
+failuremessage_blocked                  Blocked
+failuremessage_cantafford               Insufficient Funds
+failuremessage_cantaffordupkeep         Exceeds Daily Budget
+failuremessage_oneadministratormax      Already Hired
+failuremessage_maxstaff                 Too Many Staff
+
+
+# =============================================================================
+# Status Toolbar
+# =============================================================================
+
+statustoolbar_deliveries                Deliveries
+statustoolbar_finances                  Finances
+statustoolbar_regime                    Regime
+statustoolbar_escapemap                 Security
+statustoolbar_electricity               Electricity
+statustoolbar_stats                     Stats
+statustoolbar_danger                    Danger
+statustoolbar_jobs                      Jobs
+statustoolbar_gangs                     Gangs
+statustoolbar_staff                     Staff
+statustoolbar_research                  Research
+
+
+# =============================================================================
+# Sprite Bank Editor + other tools
+# =============================================================================
+
+spritebankeditor_title                  Sprite Bank Editor
+spritebankeditor_create                 Create
+spritebankeditor_rotate                 Rotation
+spritebankeditor_sort                   Sort
+spritebankeditor_markermodetitle        Marker Mode
+
+
+# =============================================================================
+# Codex
+# =============================================================================
+
+codex_mainmenu                          Main Menu
+codex_campaign                          Campaign
+codex_cutscenes                         Cutscenes
+codex_qualifications                    Qualifications
+codex_load                              Load Prison
+codex_save                              Save Prison
+codex_performance						Performance Test
+codex_developer_load                    (Developer) Load Map
+codex_developer_save                    (Developer) Save Map
+codex_contacts                          Contacts
+codex_materials                         Materials
+codex_play                              Play
+codex_polaroids                         Polaroids
+codex_introduction                      Introduction
+codex_restartintroduction               Restart Introduction
+codex_help                              Help (wiki)
+codex_opensavefolder                    Open Save Folder
+codex_options							Options
+codex_nitgs								Names in the Game
+codex_workshop							Steam Workshop
+codex_checkforupdates                   Check for updates
+codex_preorder                          Pre-order Now
+codex_termsconditions                   Terms and Conditions
+codex_twitter                           Twitter
+codex_extras                            Extras
+
+codex_new                               Create New Prison
+codex_new_worldsize                     World Size
+codex_new_small                         Small
+codex_new_medium                        Medium
+codex_new_large                         Large
+
+codex_options_graphics					Graphics
+codex_options_resolution				Resolution
+codex_options_resolutionauto			Auto
+codex_options_windowed					Windowed
+codex_options_filtering					Filtering
+codex_options_nofiltering				Off
+codex_options_multisampled				Multisampled
+codex_options_supersampled				Supersampled
+
+codex_options_audio						Audio
+codex_options_volume					Master Volume
+codex_options_frequency					Mix Frequency
+codex_options_swapstero					Swap Stereo
+codex_options_dspenabled				Enable DSP
+codex_options_11khz						11025 Hz
+codex_options_22khz						22050 Hz
+codex_options_44khz						44100 Hz
+
+codex_options_gameplay					Game
+codex_options_autosave					Autosave Timer
+codex_options_renderrooms				Room Checkerbox
+codex_options_apply						Apply
+
+codex_enabled                           Enabled
+codex_disabled                          Disabled
+
+codex_option_intake                     Continuous intake
+codex_tooltip_intake                    If enabled you will receive a random number of new prisoners every day, forever. If disabled you can chose when you are ready to receive prisoners.
+codex_option_fogofwar                   Fog Of War
+codex_tooltip_fogofwar                  You will lose visibility of the insides of your prison buildings, unless you have Guards patrolling the area or CCTV cameras covering the area.
+codex_option_lakes                      Generate Lakes
+codex_tooltip_lakes                     Random lakes will be generated in your plot of land
+
+codex_option_funds                      Funds
+codex_tooltip_funds                     You will start with this much money in your bank account.\n\nNb. Sell your established prisons from the Valuation screen to start with more funds.
+
+codex_transfer							Transfer
+codex_transferring						Transferring
+codex_in_prison							Currently incarcerated
+
+codex_workshop_current					Current Prison
+codex_workshop_publish					Publish this prison
+codex_workshop_update					Update
+codex_workshop_play						Play
+codex_workshop_downloading				Downloading
+codex_workshop_download_failed			Download failed
+codex_workshop_publishing				Publishing...
+codex_workshop_new						NEW
+codex_workshop_title					Title
+codex_workshop_desc						Description
+codex_workshop_view_in_workshop			View in Steam Workshop
+codex_workshop_heading_pubed			Your published prisons
+codex_workshop_heading_subed			Subscribed prisons
+codex_workshop_published_by				Published by *P
+codex_workshop_published_by_you			Published by you
+codex_workshop_published_good			Prison Published
+codex_workshop_published_good_msg		Your prison has been published successfully.
+codex_workshop_published_bad			Fail To Publish Prison
+codex_workshop_published_bad_msg		Your prison failed to publish.
+codex_workshop_published_bad_msg_new	Your new prison has failed to publish. Please try again.
+codex_workshop_busy						Some magic is already happening with Steam. Please wait for that to finish first.
+codex_workshop_file_exists				You've already published a prison with this name. Please pick a different name.
+codex_workshop_generic_fail				Failed to publish your prison. Please try again.
+codex_workshop_download_bad				Failed To Download Prison
+codex_workshop_pa_workshop				Open Prison Architect Workshop
+codex_workshop_agreement				By submitting this item, you agree to the [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]workshop terms of service[/url].
+
+codex_options_timelapse					Time Lapse
+codex_timelapse_record					Record Time Lapse
+codex_timelapse_stop					Stop Time Lapse
+codex_timelapse_camera					Camera Mode
+codex_timelapse_resolution				Resolution
+codex_timelapse_customresw				Custom Res Width
+codex_timelapse_customresh				Custom Res Height
+codex_timelapse_resolution				Resolution
+codex_timelapse_fps						Playback Rate
+codex_timelapse_interval				Capture Interval
+codex_timelapse_quality					Quality
+codex_timelapse_unsupported				This feature is unavailable on your hardware.
+codex_timelapse_savesettings			Save Settings
+
+codex_performance_running				Performance Test Running
+codex_performance_time					Time Left: *Ts
+codex_performance_current				Current Frame Time: *Tms
+codex_performance_min					Min Frame Time: *Tms
+codex_performance_avg					Average Frame Time: *Tms
+codex_performance_max					Max Frame Time: *Tms
+
+codex_last_modified						Last Modified: *T
+codex_sortbydesc						Sort By Date
+codex_sortname							Name
+codex_sortdate							Date
+codex_apply								Apply
+
+codex_mods								Mods
+codex_mod_activetitle					Active Mods
+codex_mod_inactivetitle					Available Mods
+codex_mod_deactivate					Deactivate Mods
+codex_mod_wiki							Download more mods (Wiki)
+codex_mod_openmodsfolder				Open Mods Folder
+codex_authortitle                       Author
+codex_versiontitle                      Version
+codex_datetitle                         Date
+codex_urltitle                          Url
+codex_typetitle							Type
+codex_mod_presentation					Presentation
+codex_mod_translation					Translation
+codex_mod_scenario						Scenario
+codex_mod_content						Content
+codex_mod_load_scenario					Play Scenario
+
+
+# =============================================================================
+# Graphics Change Confirmation
+# =============================================================================
+
+graphicschange_message					Do you wish to keep these graphics options? These changes will revert in
+graphicschange_time						seconds.
+graphicschange_accept					Accept
+graphicschange_revert					Revert
+
+# =============================================================================
+# Biography
+# =============================================================================
+
+biography_search                        Stop and Search
+biography_selected                      SELECTED
+
+
+# =============================================================================
+# Rap Sheet
+# =============================================================================
+
+rapsheet_age							Age:
+rapsheet_category						Category:
+rapsheet_traits							Known Traits:
+rapsheet_conviction_text				*C - *Y years
+rapsheet_found_text						(Plea: *P)
+rapsheet_convictions					Convictions
+rapsheet_misconductstitle				Recent Misconduct
+rapsheet_biography                      Biography
+rapsheet_guilty							Guilty
+rapsheet_notguilty						Not guilty
+rapsheet_served							Served
+rapsheet_served_time					Served *Y years
+rapsheet_time							*Y years
+rapsheet_bio							Sentenced to *Y years for *A.
+rapsheet_bio_med						Sentenced to *Y years for multiple crimes including *A, and *B.
+rapsheet_bio_long						Sentenced to *Y years for multiple crimes including *A, *B, and *C.
+
+rapsheet_category_minsec				Minimum Security
+rapsheet_category_normal				Normal Security
+rapsheet_category_maxsec				Maximum Security
+
+# =============================================================================
+# Misconducts
+# =============================================================================
+
+misconduct_reporttype_none                  None
+misconduct_reporttype_complaint             Complaint
+misconduct_reporttype_destruction           Destruction
+misconduct_reporttype_escapeattempt         Escape Attempt
+misconduct_reporttype_injuredprisoner       Attacked Prisoner
+misconduct_reporttype_injuredstaff          Attacked Staff
+misconduct_reporttype_seriousinjury         Serious Injury
+misconduct_reporttype_murder                Murder
+misconduct_reporttype_contrabandweapons     Found Weapons
+misconduct_reporttype_contrabandtools       Found Tools
+misconduct_reporttype_contrabandnarcotics   Found Drugs
+misconduct_reporttype_contrabandluxuries    Found Luxuries
+
+
+# =============================================================================
+# Research Names + Captions
+# =============================================================================
+
+research_required                       You need a *X to prepare this report.
+research_requireunlock                  You need to research '*X' to unlock this report
+
+researchtooltip_warden                  Unlocks the Warden, and the entire Bureaucracy system.  Hire him from the Staff toolbar.  Like all Administrators, he requires an office to work.  
+researchtooltip_security                Unlocks the Chief of Security, who can be hired from the staff toolbar.  The chief gives you access to the Deployment screen, and will also give you a realtime report of the danger level of your prison, often predicting future trouble.
+researchtooltip_maintainance            Unlocks the Foreman.  Hire him from the Staff toolbar.
+researchtooltip_legal                   (CURRENTLY SERVES NO PURPOSE)\nUnlocks the Lawyer.\nLawyers can reduce the overall number of Penalty Points you have been awarded, and you can hire as many of them as you need.\n\nEach Lawyer requires his own office.
+researchtooltip_deployment              Allows you to permanently station Guards to the sectors of your Prison.
+researchtooltip_patrols                 Allows you to define patrols around crucial areas of your prison (eg the perimeter), and assign guards to walk those patrols.
+researchtooltip_cctv                    Unlocks CCtv cameras and security monitors.  Use these to keep watch on unmanned parts of your jail.  Also unlocks the Security Room which serves absolutely no purpose right now.  It's an Alpha.  
+researchtooltip_riotguards              (CURRENTLY SERVES NO PURPOSE)\nUnlocks the Riot Guard.  These guys are armoured and better able to deal with violent situations.
+researchtooltip_clone                   Unlocks the clone tool on the main toolbar.  Use this tool to rapidly duplicate areas of your prison, such as Cells.  To use, select a zone to be copied with a right mouse drag, then left click to stamp down a copy.
+researchtooltip_groundskeeping          Unlocks the Gardener.  He will keep your outdoor areas tidy.
+researchtooltip_cleaning                Unlocks the Janitor.  He will clean all the indoor areas of your prison.
+researchtooltip_health                  Unlocks the Doctor, along with the Infirmary and the Morgue.  Injured prisoners and staff will be taken to the Infirmary and Doctors will patch them up.
+researchtooltip_MentalHealth            Unlocks the Psychologist, providing you with a valuable insight into your Prisoner's internal psychological state at all times.
+researchtooltip_finance                 Unlocks the Accountant, which gives access to the financial report for your Prison.\n\nAlso allows you to spend more each day than your income would normally allow, assuming you have the funds in reserve. 
+researchtooltip_landexpansion           Authorises you to purchase neighbouring plots of land, and thereby expand the size of your prison beyond its initial bounds.
+researchtooltip_ReducePenalty1          (CURRENTLY SERVES NO PURPOSE)\nReduces the number of Penalty Points awarded by 50.
+researchtooltip_ReducePenalty2          (CURRENTLY SERVES NO PURPOSE)\nReduces the number of Penalty Points awarded by 50.
+researchtooltip_ReducePenalty3          (CURRENTLY SERVES NO PURPOSE)\nReduces the number of Penalty Points awarded by 50.
+researchtooltip_ReducePenalty4          (CURRENTLY SERVES NO PURPOSE)\nReduces the number of Penalty Points awarded by 50.
+researchtooltip_ReducePenalty5          (CURRENTLY SERVES NO PURPOSE)\n Reduces the number of Penalty Points awarded by 50.
+researchtooltip_prisonlabour            Allows you to put your prisoners to work around your prison (Cooking, Cleaning etc), saving you on staff wages, earning you money, and teaching your prisoners new skills at the same time.\n\nAlso Unlocks the Workshop and the Laundry.
+researchtooltip_contraband              Training for your Guards to become better at tracking and recovering contraband. Unlocks the Supply and Demand report, the Contraband overlay (showing all possible theft locations within your prison), and tracks all recovered contraband back to where it was smuggled or stolen.
+researchtooltip_policy                  Unlocks the Policy Report, allowing you to increase and decrease the punishments for all types of misconduct, as well as automatically triggering searches of the misbehaving prisoner and his cell
+
+# =============================================================================
+# Room Requirements
+# =============================================================================
+
+roomrequirement_required                REQUIRED:
+roomrequirement_recommended             Recommended: 
+roomrequirement_minimumsize             Minimum Size *W x *H
+roomrequirement_indoor                  Indoors
+roomrequirement_solidground             Solid Ground
+roomrequirement_secure                  Secure (behind at least one Door)
+roomrequirement_enclosed                Enclosed (surrounded by walls and doors)
+requirement_entrance                    Requires Entrance
+
+# =============================================================================
+# Unlocks
+# =============================================================================
+
+unlock_title                            UNLOCKED
+
+unlock_special_electricity              Electrical Systems
+unlock_special_food                     Food Preparation
+unlock_special_officersafety            Officer Safety
+unlock_special_misbehavior              Misbehavior
+unlock_special_accounting               Accounting
+unlock_special_gangs                    Gangs
+
+unlock_electricity_caption              Allows the construction of power stations and electrical cables, providing electricity to all devices that require it.
+
+
+# =============================================================================
+# Advisers
+# =============================================================================
+
+click_to_continue                       Click to Continue...
+incoming_call                           Incoming Call...
+
+adviser_name_none                       None
+adviser_name_ceo                        The CEO
+adviser_name_warden                     The Warden
+adviser_name_governer                   The Governer
+adviser_name_chief                      The Chief
+adviser_name_doctor                     The Doctor
+adviser_name_kingpin                    The KingPin
+adviser_name_edwardshooter              Edward
+adviser_name_edwardsinner               Edward
+adviser_name_edwardinmate               Edward
+adviser_name_edwardswife                Edward's Wife Susan
+adviser_name_priest                     The Priest
+
+
+# =============================================================================
+# Valuation, Reports etc
+# =============================================================================
+
+report_staff                            Staff
+report_prisoners                        Prisoners
+report_jobs                             Jobs
+report_needs                            Needs
+report_threats                          Threats
+report_regime                           Regime
+report_policy                           Policy
+report_grants                           Grants
+report_finance                          Finance
+report_valuation                        Valuation
+report_contraband                       Contraband
+
+report_staff_title                      Staff *X
+report_staff_group_builders             Workers
+report_staff_group_guards               Guards
+report_staff_group_staff                Staff
+report_staff_group_administrators       Administrators
+report_staff_group_prisoners            Prisoners
+report_staff_group_prisoners_high       High Risk
+report_staff_group_prisoners_normal     Normal Risk
+report_staff_group_prisoners_low        Low Risk
+
+valuation_categoryprison                Prison Value
+valuation_construction                  Bricks and Morter
+valuation_objects                       Fixtures and fittings
+valuation_stock                         Stock and materials
+valuation_staff                         Staff
+valuation_startupgrant                  Starting Grant
+valuation_capacity                      Prisoner Capacity
+valuation_cash                          Cash
+valuation_categoryperformance           Safety and Security
+valuation_bonustimewithoutincident      [Bonus] Time without incident
+valuation_fineviolence                  [Penalty] Serious Injuries
+valuation_finemurder                    [Penalty] Unsolved Murders
+valuation_fineescape                    [Penalty] Escapes
+valuation_total                         TOTAL
+valuation_sell                          SELL
+valuation_sell_tooltip                  Selling your prison will allow you to take the profits from this prison and start a new one with a much higher starting bank balance.\nYou will still be able to continue running this prison, but you can only sell a prison once. All profit from the sale will be transferred to your new site.
+valuation_sold                          This prison was sold for *X
+valuation_donotown                      You cannot sell this prison as you do not own it
+
+salecondition_title                     SALE REQUIREMENTS
+salecondition_cannotsell                You cannot sell your prison until the conditions below are met
+salecondition_minimumvalue              Minimum value $50,000
+salecondition_cashflow                  Positive cashflow
+salecondition_accountant                Accountant on site
+salecondition_minprisoners              At least 20 prisoners
+
+policy_title                            INCIDENT
+policy_search                           - SEARCH -
+policy_prisoner                         HIM
+policy_cell                             CELL
+policy_punishment                       PUNISHMENT
+policy_quantity                         TIME
+
+job_construct                           Construct *X
+job_installobject                       Install *X
+job_installobjectinroom                 Install *X in *Y
+job_moveobject                          Move *X
+job_moveobjecttoroom                    Move *X to *Y
+job_loadobjectinto                      Load *X Into *Y
+job_storeobject                         Store *X in *Y
+job_dismantleobject                     Dismantle *X
+job_dumpobject                          Dump *X
+job_repairobject                        Repair *X
+job_operateequipment                    Operate *X
+job_escortprisoner                      Escort Prisoner to *X
+job_punishprisoner                      Process Prisoner
+job_searchobject                        Search *X 
+job_searchentity                        Search Prisoner
+job_searchingentity						Searching Prisoner
+job_searchcell                          Search Cell
+job_searchcellblock                     Search Cell Block
+job_improvecellindoor                   Clean indoor area
+job_improvecelloutdoor                  Garden outdoor area
+job_opendoor                            Open Locked Door
+       
+finances_title                          Finances
+finances_income                         Income
+finances_expenses                       Expenses
+finances_total                          Total
+finances_profit                         Net
+
+meal_quantity                           Meal Quantity
+meal_variety                            Meal Variety
+meal_cost                               Cost Per Prisoner
+
+                                                           
+# =============================================================================
+# Needs / Actions / Bio etc
+# =============================================================================
+                                                     
+action_poo                              Poo
+action_wee                              Wee
+action_wash                             Showering
+action_relax                            Relaxing
+action_sleep                            Sleeping
+action_nap                              Napping
+action_getmeal                          Getting Food
+action_sit                              Sitting
+action_exercise                         Exercising
+action_liftweights                      Weightlifting
+action_phonehome                        Phoning Family
+action_watchtv                          Watching Tv
+action_playpool                         Playing Pool
+action_stealknife                       Acting Suspicious
+action_stealspoon                       Acting Suspicious
+action_urinate                          Urinating
+action_soilsuit                         Soiling Suit
+action_eat                              Eating
+action_complain                         Complaining
+action_work                             Working
+action_visitation                       Visitation
+
+# =============================================================================
+# Nameplate status
+# ============================================================================= 
+
+nameplate_working                       Working
+nameplate_stationed                     Stationed
+nameplate_patrolling                    Patrolling
+nameplate_resting                       Resting
+nameplate_tired                         Tired
+nameplate_injured                       Injured
+nameplate_unconscious                   Unconscious
+nameplate_dead                          DEAD
+nameplate_released                      RELEASED
+nameplate_researching                   Researching
+
+
+# =============================================================================
+# Status Effects
+# ============================================================================= 
+
+status_effect_title						=[Status Effects]=
+status_effect_none						None
+status_effect_suppressed				Suppressed
+status_effect_goodfood					Well fed
+status_effect_drunk						Drunk
+status_effect_uppers					Uppers
+status_effect_downers					Downers
+status_effect_withdrawl					Withdrawl
+
+
+# =============================================================================
+# Objectives, Grants
+# =============================================================================
+
+objective_feedallprisoners              Feed all Prisoners
+objective_caption_prisoners             Prisoners
+objective_caption_meals                 Meals
+objective_readceosletter                Read the CEO's letter
+objective_actionrequired                Incident Reports
+
+objective_prisonerintake                Prisoner Intake
+objective_intake_arrivals               *X prisoners arriving 8am
+objective_intake_closed                 Your prison is closed to new inmates
+objective_intake_closed2                (See the Prisoner's Report)
+objective_intake_specials				Special Transfers:
+
+objective_outgoing                      Prisoners due for release
+objective_outgoing_count                *X prisoners are due for release soon
+
+objective_visitors                      Visitors (8am - 8pm)
+objective_visitors_waiting              *X families waiting to visit
+objective_visitors_onsite               *X visitors on site in *Y groups
+
+objective_staffexhausted                Staff Exhausted
+objective_reststaff_exhausted           *X staff members are exhausted.
+objective_reststaff_resting             (*X are resting)
+objective_reststaff_needstaffroom       Build a Staff Room so they can rest.
+
+objective_grant_bootstraps                  Contract: Basic Detention Centre
+objective_grant_bootstraps_description      Turn an empty field into a functioning prison.  This government contract gives you the funds neccesary to build the absolute minimum facilities for your first set of Prisoners.
+objective_grant_bootstraps_holdingcell      Build a holding cell
+objective_grant_bootstraps_shower           Build a shower
+objective_grant_bootstraps_yard             Build a yard 
+objective_grant_bootstraps_kitchen          Build a kitchen
+objective_grant_bootstraps_canteen          Build a canteen
+objective_grant_bootstraps_guard            Hire at least two guards
+objective_grant_bootstraps_chef             Hire at least two chefs
+
+objective_grant_administration                          Contract: Administration Centre
+objective_grant_administration_description              Every prison project needs a functioning administration facility, to ensure things run smoothly and to hold the project accountable.  This contract pays for a Warden and an Accountant and their offices, which will then give us access to the full Federal Grant system.
+objective_grant_administration_offices                  Build two offices
+objective_grant_administration_warden                   Hire a Warden 
+objective_grant_administration_accountant_research      Unlock Finance through Bureaucracy
+objective_grant_administration_accountant               Hire an Accountant
+
+objective_grant_firstcellblock                  Contract: Cell Block A
+objective_grant_firstcellblock_description      The basics are up and running.  It is time to build your first cell block, and transfer the existing prisoners into cells of their own.
+objective_grant_firstcellblock_cells            Raise your Prisoner Capacity to 15
+
+objective_grant_health                      Grant: Health and Well Being
+objective_grant_health_description          The physical and mental health of our inmates is very important to us.  This grant is to facilitate the construction of a state of the art medical ward, and to hire doctors and psychologists to look after the inmates health needs.
+objective_grant_health_ward                 Build a medical ward
+objective_grant_health_doctors              Hire at least two doctors
+objective_grant_health_psychologist         Hire a psychologist (Requires an Office)
+ 
+
+# =============================================================================
+# Materials
+# =============================================================================
+                                              
+                                                                                                       
+object_none                              None
+object_box                               Box
+object_stack                             Stack
+object_bed                               Bed
+object_toilet                            Toilet
+object_table                             Table
+object_chair                             Chair
+object_bench                             Bench
+object_electricchair                     Christmas Tree
+object_jaildoor                          Jail Door
+object_jaildoorlarge                     Large Jail Door
+object_door                              Door
+object_solitarydoor                      Solitary Door
+object_staffdoor                         Staff Door
+object_jailbars                          Jail Bars
+object_window                            Window
+object_windowlarge                       Large Window
+object_tree                              Tree
+object_light                             Light
+object_cooker                            Cooker
+object_fridge                            Fridge
+object_bin                               Bin
+object_sink                              Sink
+object_servingtable                      Serving Table
+object_showerhead                        Shower Head
+object_brick                             Brick
+object_concrete                          Concrete
+object_steel                             Steel
+object_ingredients                       Ingredients
+object_ingredientscooking                Ingredients (Cooking)
+object_ingredientscooked                 Ingredients (Cooked)
+object_meal                              Meal
+object_foodtray                          Food Tray
+object_foodtraydirty                     Food Tray (Dirty)
+object_grassturf                         Grass Turf
+object_prisoneruniform                   Prisoner Uniform
+object_dirtyprisoneruniform              Prisoner Uniform (Dirty)
+object_crumpledprisoneruniform           Prisoner Uniform (Crumpled)
+object_bleach                            Bleach
+object_sheetmetal                        Wrapping Paper
+object_licenseplateblank                 Ready Cut Box
+object_licenseplate                      Present
+object_workman                           Little Helper
+object_guard                             Elf
+object_riotguard                         Riot Guard
+object_prisoner                          Prisoner
+object_doctor                            Doctor
+object_paramedic                         Paramedic
+object_cook                              Cook
+object_gardener                          Gardener
+object_janitor                           Janitor
+object_fireman                           Fireman
+object_avatar                            Avatar
+object_actor                             Actor
+object_visitor                           Visitor
+object_doghandler                        Dog Handler
+object_dog                               Guard Dog 
+object_dogcrate                          Dog Crate
+object_warden                            Santa Claus
+object_chief                             Chief
+object_foreman                           Foreman
+object_psychologist                      Psychologist
+object_accountant                        Accountant
+object_lawyer                            Lawyer
+object_supplytruck                       Supply Truck
+object_fireengine                        Fire Engine
+object_riotvan                           Riot Van
+object_ambulance                         Ambulance
+object_hearse                            Hearse
+object_fire                              Fire
+object_garbage                           Garbage
+object_rubble                            Rubble
+object_bookshelf                         Bookshelf
+object_officedesk                        Office Desk
+object_filingcabinet                     Filing Cabinet
+object_medicalbed                        Medical Bed
+object_morgueslab                        Morgue Slab
+object_equipment                         Equipment
+object_prop                              Prop
+object_dummy                             Dummy
+object_powerstation                      Power Station
+object_capacitor                         Capacitor
+object_electricalcable                   Electrical Cable
+object_powerswitch                       Power Switch
+object_waterpumpstation                  Water Pump Station
+object_pipevalve                         Pipe Valve
+object_pipelarge                         Large Pipe
+object_pipesmall                         Small Pipe
+object_drain                             Drain
+object_sprinkler                         Sprinkler
+object_metaldetector                     Metal Detector
+object_weightsbench                      Weights Bench
+object_phonebooth                        Phone Booth
+object_tv                                Tv
+object_largetv                           Large Tv
+object_pooltable                         Pool Table
+object_polaroid                          Polaroid
+object_cctv                              Cctv
+object_cctvmonitor                       Cctv Monitor
+object_laundrymachine                    Laundry Machine
+object_laundrybasket                     Laundry Basket
+object_ironingboard                      Ironing Board
+object_visitortable                      Visitor Table
+object_workshopsaw                       Workshop Box Cutter
+object_workshoppress                     Workshop Box Folder
+object_boombox                           Boombox
+object_guardlocker                       Guard Locker
+object_sofachairsingle                   Sofa
+object_sofachairdouble                   Wide Sofa
+object_drinkmachine                      Drink Machine
+object_arcadecabinet                     Arcade Cabinet
+object_radio                             Radio
+object_bookshelflarge                    Library Bookshelf
+object_weaponrackshotguns                Weapon Rack (Shotguns)
+object_weaponrackrifles                  Weapon Rack (Rifles)
+object_dismantleobject                   Dismantle Object
+object_dismantleutility                  Dismantle Utility
+
+material_none                            None
+material_building                        Building
+material_demolish                        Bulldoze
+material_demolishwalls                   Demolish Walls
+material_removetunnels                   Remove Tunnels
+material_dirt                            Dirt
+material_pavingstone                     Paving Stone
+material_grass                           Grass
+material_gravel                          Gravel
+material_road                            Road
+material_roadmarkings                    Road Markings
+material_roadmarkingsleft                Road Markings (Left)
+material_roadmarkingsright               Road Markings (Right)
+material_stone                           Stone
+material_fence                           Fence
+material_concretetiles                   Concrete Tiles
+material_concretefloor                   Concrete Floor
+material_woodenfloor                     Wooden Floor
+material_ceramicfloor                    Ceramic Floor
+material_mosaicfloor                     Mosaic Floor
+material_metalfloor                      Metal Floor
+material_marbletiles                     Marble Tiles
+material_whitetiles                      White Tiles
+material_fancytiles                      Fancy Tiles
+material_concretewall                    Concrete Wall
+material_brickwall                       Brick Wall
+material_perimeterwall                   Perimeter Wall
+material_burntfloor                      Burnt Floor
+material_burntwall                       Burnt Wall
+material_buildingframe                   Building Frame
+material_roof                            Roof
+
+room_none                                None
+room_cell                                Cell
+room_holdingcell                         Holding Cell
+room_solitary                            Solitary
+room_canteen                             Canteen
+room_kitchen                             Kitchen
+room_shower                              Shower
+room_yard                                Yard
+room_storage                             Storage
+room_deliveries                          Deliveries
+room_garbage                             Garbage
+room_execution                           Execution
+room_workshop                            Workshop
+room_security                            Security
+room_office                              Office
+room_medicalward                         Infirmary
+room_morgue                              Morgue
+room_commonroom                          Common Room
+room_laundry                             Laundry
+room_visitation                          Visitation
+room_cleaningcupboard                    Cleaning Cupboard
+room_kennel                              Kennel
+room_armoury                             Armoury
+room_staffroom                           Staffroom
+room_library                             Library
+
+equipment_none                           None
+equipment_fists                          Fists
+equipment_baton                          Candy Cane
+equipment_shank                          Shank
+equipment_knife                          Knife
+equipment_fork                           Fork
+equipment_gun                            Gun
+equipment_spoon                          Spoon
+equipment_needle                         Needle
+equipment_booze                          Booze
+equipment_poison                         Poison
+equipment_cigs                           Cigs
+equipment_saw                            Saw
+equipment_jailkeys                       Jail Keys
+equipment_mobilephone                    Mobile Phone
+equipment_lighter                        Lighter
+equipment_screwdriver                    Screwdriver
+equipment_drugs                          Drugs
+equipment_sheers                         Sheers
+equipment_mop                            Mop
+equipment_rake                           Rake
+equipment_hose                           Hose
+equipment_spatula                        Spatula
+equipment_woodenspoon                    Wooden Spoon
+equipment_cleaningbrush                  Cleaning Brush
+equipment_hammer                         Hammer
+equipment_clipboard                      Clipboard
+equipment_drill                          Drill
+equipment_pianowire                      PianoWire
+equipment_scissors                       Scissors
+equipment_medicine                       Medicine
+equipment_shotgun                       Shotgun
+equipment_moneybag                      Money Bag
+equipment_tazer                         Tazer
+equipment_guarduniform                  Guard Uniform
+equipment_stabvest                      Stab Vest
+equipment_rifle                         Rifle
+
+research_none                           None
+research_warden                         Warden
+research_maintainance                   Maintainance
+research_security                       Security
+research_legal                          Legal
+research_mentalhealth                   Mental Health
+research_finance                        Finance
+research_landexpansion                  Land Expansion
+research_cctv                           Cctv
+research_riotguards                     Riot Guards
+research_health                         Health
+research_cleaning                       Cleaning
+research_groundskeeping                 Grounds Keeping
+research_clone                          Clone
+research_deployment                     Deployment
+research_patrols                        Patrols
+research_dogs                           Dogs
+research_prisonlabour                   Prison Labour
+research_contraband                     Contraband
+research_policy                         Prison Policy
+
+research_requires_short                 Requires a *X
+
+regime_nothing                          Nothing
+regime_sleep                            Sleep
+regime_eat                              Eat
+regime_shower                           Shower
+regime_yard                             Yard
+regime_work                             Work
+regime_lockdown                         Lockdown
+regime_freetime                         FreeTime
+regime_currenttime                      Now
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+box_contents                             Contents: *X
+stack_contents                           Contents: *X x *Y
+
+object_dump                             Garbage
+object_todo                             Todo: *X
+
+object_door_cyclepermissions            Click to cycle Access Permissions
+object_door_cyclepermissions_1          (Open, Staff Only, Closed)
+
+object_firemen_hosehelp                 Hold H to aim the hose
+
+object_inactive                         INACTIVE
+object_cctv_moremonitors                Build more CCtv Monitors
+object_cctvmonitor_needsguards          Guards required within viewing zone
+
+administrator_requiresoffice            Requires Office
+
+prisoner_assignedto                     Requires: *X
+
+contraband_owner                        Owner: *X
+contraband_ownerunknown                 Owner unknown
+contraband_stolenfrom                   Stolen from *X, *Y hours ago
+contraband_smuggledthrough              Smugged through *X, *Y hours ago
+contraband_smuggledin                   Smuggled in by Prisoner, *Y hours ago
+
+staff_exhausted                         Exhausted
+staff_tired                             Tired
+staff_needsrest                         Staff prefer to rest in a Staff Room
+dog_needskennel                         Dogs need a Kennel to sleep in
+
+
+# =============================================================================
+# Death Row
+# =============================================================================
+
+campaignchapter_deathrow                Death Row
+
+campaignchapter_deathrow_description    We've been contracted to build an Execution Chamber at this prison, in time for the scheduled execution of one of their in-mates.
+
+campaigncutscene_deathrowmurder         Double Murder
+campaigncutscene_deathrowconfession     Confession
+
+adviser_deathrow_murder1                I knew I'd catch you two here.
+adviser_deathrow_murder2                Edward! I...
+adviser_deathrow_murder25               Don't.  Just....Don't.
+adviser_deathrow_murder3                What are you going to do?
+
+adviser_deathrow_church1                Can I help you?
+adviser_deathrow_church15               ...
+adviser_deathrow_church2                Are you looking for forgiveness?
+adviser_deathrow_church3                I don't know. I have to do something, I can't live with the things I've done.
+adviser_deathrow_church4                You have to turn yourself in. Whatever you've done, you cannot evade the consequences. 
+adviser_deathrow_church5                You will never be able to live with yourself until you face up to your past.
+adviser_deathrow_church6                I want to go back. I want to forgive her. I want her to forgive me.
+adviser_deathrow_church7                God will forgive you, no matter what you have done, if you ask him to. 
+adviser_deathrow_church8                But you must answer for your crimes in the eyes of the law.  There is no other way.
+
+adviser_deathrowintro_1                 This is a tough one.
+adviser_deathrowintro_2                 There's a prisoner incarcerated at this facility who's been convicted of a double murder, and sentenced to death.  
+adviser_deathrowintro_3                 That's where we come in.  We've been contracted to construct an execution chamber in time for the guys big day.
+adviser_deathrowintrob_1                This is where I want the new facility to be built.
+adviser_deathrowintrob_2                The first step with any project like this is to construct the building itself - with enough space inside to fit an execution room and a holding cell.
+adviser_deathrowintrob_3                So let's get started.  Construct a new building here.
+
+adviser_deathrow_explain1               Your Workmen are responsible for construction of buildings.
+adviser_deathrow_explain2               They'll collect the Steel and concrete from this store room and take it to the construction site.
+adviser_deathrow_explain3               They'll use those raw materials to build the foundations and framework of your new building.
+adviser_deathrow_explain4               This is the slowest part of construction, so you should plan ahead when building new facilities.
+adviser_deathrow_explain5               While we wait, take a look around.  Use WASD or the arrow keys to move around, and use the mouse wheel to zoom in and out.
+
+objective_deathrow_building             Construct a building to house the Execution Facility
+
+adviser_deathrow_buildinside1           We will also need an entrance to the new Execution Facility.
+adviser_deathrow_buildinside2           Build a Large Jail Door into the south wall.
+
+objective_deathrow_buildouterdoor       Build a Large Jail Door entrance
+
+adviser_deathrow_internalwalls1          Inside the building I want a Jail Cell and an Execution Room.
+adviser_deathrow_internalwalls2          Partition the space by constructing some Brick Walls.
+
+objective_deathrow_buildinternalwalls   Build internal walls
+
+adviser_deathrow_internaldoors1          Now add Large Jail Doors to those dividing walls.
+adviser_deathrow_internaldoors2          You can rotate an object before placement by clicking the middle mouse button (or press R).
+
+objective_deathrow_buildinternaldoors   Build internal doors (Middle Click or press R to rotate an object)
+
+adviser_deathrow_designation1           That's looking good.  We now need to Designate Rooms within those spaces.
+adviser_deathrow_designation2           Designate a Cell in the smaller area where our condemned inmate will live.
+adviser_deathrow_designation3           Then designate the Execution Room itself in the larger area.
+
+objective_deathrow_designatecell        Designate a Cell
+objective_deathrow_designateexecution   Designate an Execution Room
+
+adviser_deathrow_roomrequirements1      Those new Rooms have requirements before they become functional.  
+adviser_deathrow_roomrequirements2      The Cell needs a Bed and a Toilet.
+adviser_deathrow_roomrequirements3      The Execution Room requires the Electric Chair.
+
+objective_deathrow_cellobjects1         Build a Bed
+objective_deathrow_cellobjects2         Build a Toilet
+objective_deathrow_executionobjects     Build an Electric Chair
+
+adviser_deathrow_optional1              That's the essentials taken care of.  But there are still a few improvements you could make.
+adviser_deathrow_optional2              It's up to you though, these aren't strictly required.  It depends how much you care about your prisoners and their environment.
+adviser_deathrow_optional3              The Cell itself could be improved with an outward facing Window, and a small Bookshelf.  
+adviser_deathrow_optional4              And the facility would look better with a higher quality floor material - like Wooden Floorboards or Mosaic Tiles.
+adviser_deathrow_optional5              Outside you could add some lighting, and a paved pathway if you think it needs it.
+
+adviser_deathrow_transfer05             This is the man in question, Edward Romsey.  A teacher once, would you believe.
+adviser_deathrow_transfer06             It's not our place to decide if he deserves this.  The Law has made that decision.  We're just here to do a job.
+adviser_deathrow_transfer1              Once you are satisfied the facility is ready, you can begin the Prisoner Transfer to his new cell.
+adviser_deathrow_transfer2              Simply click on him to select him, then Right Click just outside his Cell to initiate the transfer.
+
+objective_deathrow_path                 (OPTIONAL) Build a Path to the new facility
+objective_deathrow_window               (OPTIONAL) Add a Window to the Cell
+objective_deathrow_bookshelf            (OPTIONAL) Add a bookshelf to the Cell
+objective_deathrow_flooring             (OPTIONAL) Redo the flooring with higher quality materials
+objective_deathrow_outerlights          (OPTIONAL) Create some outdoor lighting around the facility
+objective_deathrow_transferinmate       When you are done, begin the Prisoner Transfer.  Click to select him, then Right Click in the zone outside his cell.
+
+adviser_deathrow_setupmurder1           Don't shed one tear for this guy.  He's a stone cold killer, guilty as charged. 
+adviser_deathrow_setupmurder2           He even confessed.  Wanna hear his description of what he did?  
+adviser_deathrow_setupmurder3           It's juicy stuff.  "It was around 11pm.  The lights were already on.  I knew she was home..."
+adviser_deathrow_postmurder1            Like I said, a stone cold killer.
+adviser_deathrow_postmurder2            Clear as day if you ask me.  Deserves every volt he's gonna get.
+adviser_deathrow_postmurder3            All men deserve forgiveness, even him. Are you so sure in yourself that you can deal out such final judgement?
+adviser_deathrow_postmurder4            Catching your wife with another man is no excuse for what he did. 
+adviser_deathrow_postmurder5            And he went there with a loaded gun, knowing he'd find them together. That's double pre-meditated murder.
+adviser_deathrow_postmurder6            He's done nothing but co-operate with the authorities. This state is making an example of him. 
+adviser_deathrow_postmurder7            If he'd committed his crime 100 miles north he'd be looking at life imprisonment instead. How is that justice?
+adviser_deathrow_postmurder8            Do you want a guy like this running free? I'll sleep just fine at night when I know he's gone.
+           
+
+adviser_deathrowelectricity_1           Good work so far.
+adviser_deathrowelectricity_2           However there is one problem - the execution room isn't functioning yet, because it doesn't have any power.
+adviser_deathrowelectricity_3           We need to connect it to the electricity supply.
+
+adviser_deathrowelectricityb_1          We are now viewing the prison in Utilities mode, which shows us the electrical wiring layout for the entire prison. 
+adviser_deathrowelectricityb_2          Each building in the prison is connected to the Power Grid by these thick underground electrical cables.  
+adviser_deathrowelectricityb_3          Power is provided to the prison by this substation, which draws electricity from the national grid.
+adviser_deathrowelectricityb_4          As you can see, this entire wing of prison cells is without power.  All of the lights are out.
+adviser_deathrowelectricityb_4b         To fix this problem, we first need to switch into Utilities mode to understand why the lights are without power.
+adviser_deathrowelectricityb_5          The nearest electrical cables are too far away - our engineers can't complete the wiring for this area.
+adviser_deathrowelectricityb_6          Extend the electrical cables nearby to cover this wing of the prison.
+
+objective_deathrow_cellpower            Connect room to Electrical Supply
+
+adviser_deathrow_connectchair_1         Lights aren't the only thing that needs power.  Your new Electric Chair does too.
+adviser_deathrow_connectchair_2         Use the Power Cables to connect the execution facility to the power grid.
+adviser_deathrow_connectchair_3         The Electric Chair itself is a special type of electrical item.  It requires its own dedicated power line. You'll need to connect it up directly with mains cables.
+
+objective_deathrow_chairpower           Connect Electric Chair to Electrical Supply
+objective_deathrow_condemnedcellpower   Connect Jail Cell to Electrical Supply
+
+adviser_deathrow_testchair_1            We are almost done I think.  We should test the new Execution room at least once before we try to use it though.
+adviser_deathrow_testchair_2            I'm just going to turn it on for a few seconds, make sure everything is ok.
+adviser_deathrow_testchair_3            Well, that didn't work.  Looks like we drew too much power, and tripped a circuit breaker in the power station.  The whole prison is dark.
+adviser_deathrow_testchair_4            We're going to need more juice to be able to handle the power spike that the electric chair generates.
+adviser_deathrow_testchair_5            First, we need to turn the power back on.   This is a two step process:
+adviser_deathrow_testchair_5b           Step one, switch each Capacitor back on by clicking on them in Utilities Mode.  Step two, Switch the power station back on by clicking on it.  
+adviser_deathrow_testchair_6            Then build three more capacitors so we have enough Power Capacity to handle the electric chair.
+adviser_deathrow_testchair_7            Once you've done that, test the Electric chair again by clicking on it in Utilities Mode to turn it on.
+
+objective_deathrow_poweron              Turn the Power Station back on. (In Utilities Mode, click on each Capacitor, then click on the Power Station to restart it)
+objective_deathrow_expandpower          Expand the power station with three new Capacitors
+objective_deathrow_chairworking         Test the chair again (click on it in Utilities Mode to turn it on)
+
+adviser_deathrow_execution_1            Well done.  I believe we are finished with this job.
+adviser_deathrow_execution_2            What happens now is out of our hands.  We did a professional job, and that's important in our business.
+adviser_deathrow_execution_3            Try not to worry about what happens next.  
+
+adviser_deathrow_setupexecution1        It is time Edward. 
+adviser_deathrow_setupexecution2        You have done the right thing, even though this world will not forgive you for it.
+adviser_deathrow_setupexecution3        You will be with God soon, and He will have the final judgement on you.
+
+adviser_deathrow_setupexecution4        Edward Romsey.  You have been found guilty of two counts of murder in the first degree.
+adviser_deathrow_setupexecution5        The penalty is death.  
+adviser_deathrow_setupexecution6        Do you have anything to say?
+adviser_deathrow_setupexecution7        Susan...
+adviser_deathrow_setupexecution8        I'm sorry.
+
+
+# =============================================================================
+# Clock
+# =============================================================================
+
+clock_speed_0                           ||
+clock_speed_1                           >
+clock_speed_2                           >>
+clock_speed_5                           >>>
+clock_speed_half                        ...
+clock_add_hour                          +

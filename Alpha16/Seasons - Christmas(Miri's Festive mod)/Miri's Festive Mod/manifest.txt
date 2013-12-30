@@ -1,0 +1,8 @@
+
+Name                 "Miris Festive mod"  
+Author               "Miriam West"  
+Description          "Replaces some of the skins and names in your prison with festive ones. Compatible with Alpha 16."  
+Version              v1.1  
+Date                 27/12/2013  
+URL                  www.prison-architect.com  
+FileID               "-1"
