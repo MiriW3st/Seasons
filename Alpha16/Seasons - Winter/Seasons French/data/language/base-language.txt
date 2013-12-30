@@ -1,0 +1,4 @@
+﻿object_workman                           Bonhomme de neige
+object_warden                            Pere Noel
+research_warden                         Pere Noel
+adviser_name_warden                     Pere Noel
