@@ -1,0 +1,4 @@
+﻿object_workman                           Boneco de neve
+object_warden                            Rei do gelo
+research_warden                         Rei do gelo
+adviser_name_warden                     Rei do gelo

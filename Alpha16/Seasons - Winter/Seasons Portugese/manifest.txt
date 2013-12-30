@@ -1,0 +1,8 @@
+
+Name                 Seasons em Português 
+Author               "MiriW, Smodd, Master-Guy, Mobyduck"  
+Description          "Este mod é atualizado frequentemente para refletir tanto as estações quanto o Alpha atual. Esperamos que pessoas de todas as nacionalidadesse divirtam com este mod."  
+Version              v0.1  
+Date                 29/12/2013  
+URL                  www.prison-architect.com  
+FileID               "-1"
