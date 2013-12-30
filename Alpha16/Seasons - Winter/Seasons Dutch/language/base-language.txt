@@ -1,0 +1,4 @@
+﻿object_workman                           Sneeuwman
+object_warden                            Grootvadertje Vorst
+research_warden                          Grootvadertje Vorst
+adviser_name_warden                      Grootvadertje Vorst
