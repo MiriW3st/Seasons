@@ -1,0 +1,9 @@
+
+Name                 "Seasons in Deutsch"  
+Author               "MiriW, Smodd, Master-Guy"  
+Description          "Eine deutsche Übersetzung des Seasons-Mods. Dieser Mod wird über die Monate hinweg immer wieder mit neuen und interessanten optischen Veränderungen angepasst, welche sich an Jahreszeiten und internationalen Festen orientieren."  
+Version              v0.1  
+Date                 29/12/2013  
+URL                  www.prison-architect.com  
+FileID               F209997702  
+SteamAuthor          A76561197985145270  

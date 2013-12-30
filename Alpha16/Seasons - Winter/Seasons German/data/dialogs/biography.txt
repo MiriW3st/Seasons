@@ -1,0 +1,41 @@
+BEGIN Window
+    NAME         Biography
+    BACKGROUND   papersheet.bmp
+    WIDTH        250
+    HEIGHT       300
+    PANEL        1
+END
+
+BEGIN Canvas
+    NAME        Info
+    XPOS        Absolute        30
+    YPOS        Absolute        55
+    WIDTH       Relative        -55
+    HEIGHT      Relative        -270
+END
+
+BEGIN Custom
+    NAME        Title
+    XPOS        Absolute        30
+    YPOS        Absolute        15
+    WIDTH       Relative        -55
+    HEIGHT      Absolute        35
+END
+
+BEGIN SelectionList
+    NAME        Actions
+    XPOS        Scaled          1275
+    YPOS        Scaled          3066
+    WIDTH       Scaled          7799
+    HEIGHT      Scaled          6166
+END
+
+BEGIN Button
+    NAME        Show
+    CAPTION     Folgen
+    XPOS        Absolute        35
+    YPOS        Absolute        265
+    WIDTH       Absolute        185
+    HEIGHT      Absolute        20
+END
+
