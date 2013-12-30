@@ -1,0 +1,8 @@
+
+Name                 Seasons Translation Dutch
+Author               "Master-Guy, MiriW, Smodd, Kawo"  
+Description          "Vertaald de mod 'Seasons' naar het Nederlands. Deze modificatie veranderd met de seizoenen."  
+Version              v0.1  
+Date                 30/12/2013  
+URL                  www.prison-architect.com  
+FileID               "-1"
