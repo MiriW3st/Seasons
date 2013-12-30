@@ -1,0 +1,7 @@
+
+Name                 "Seasons in French"  
+Author               "MiriW, Smodd, Master-Guy, Kawo"  
+Description          "Traduction francaise du mod Seasons. Ce mod est mis a jour regulierement afin de suivre les saisons et les versions du jeu. Nous esperons vous proposer une experience de jeu amusante et internationale."  
+Version              v0.1 
+Date                 30/12/2013  
+URL                  www.prison-architect.com  
