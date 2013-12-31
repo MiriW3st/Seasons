@@ -1,0 +1,4 @@
+﻿object_workman                           BaQwan
+object_warden                            Dziadek Mr~z
+research_warden                         Dziadek Mr~z
+adviser_name_warden                     Dziadek Mr~z

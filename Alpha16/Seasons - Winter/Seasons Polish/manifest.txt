@@ -1,0 +1,10 @@
+
+Name                 "Seasons in Polish"  
+Author               "MiriW, Smodd, Master-Guy, Kawo, PiterMan, GROOVE3ST3R"  
+Description          "Ten mod jest regualnie aktualizowany
+aby odzwierciedlic pory roku i aktualna wersje gry.
+Zalezy nam aby gracze z kazdego kraju otrzymali
+jak najlepsze doswiadczenie."  
+Version              v0.1 
+Date                 31/12/2013  
+URL                  www.prison-architect.com  
