@@ -161,25 +161,25 @@ interfacemode_properties											[DEV] Properties
 interfacemode_contraband											Schmuggel
 
 interfaceoverlay_security											Sicherheit
-interfaceoverlay_patrols											Patroullien
-interfaceoverlay_decay												Zerfall
-interfaceoverlay_territory											Territorium
+interfaceoverlay_patrols											Patrouillen
+interfaceoverlay_decay												Verfall
+interfaceoverlay_territory											Bereich
 interfaceoverlay_contraband											Schmuggel
 
 interfaceproperty_indoor											Innenliegend
 interfaceproperty_visible											Sichtbar
 interfaceproperty_territoryprisoner									Banden
 interfaceproperty_territoryguard									Banden-Wachen
-interfaceproperty_sectorprisoner									Rioting
+interfaceproperty_sectorprisoner									Randalierend
 interfaceproperty_tunnel											Tunnel
 
 interfacedeployment_guards											Stationierung
-interfacedeployment_patrols											Patroullien
-interfacedeployment_dogpatrols										Hundepatroullien
+interfacedeployment_patrols											Patrouillen
+interfacedeployment_dogpatrols										Hundepatrouillen
 interfacedeployment_jobs											Arbeitspl^tze
 interfacedeployment_securearea										Gesichertes Gebiet
 interfacedeployment_Nozone											Normale Sicherung
-interfacedeployment_sharedzone										Geteilte Zone
+interfacedeployment_sharedzone										Gemeinsamer Bereich
 interfacedeployment_staffonlyzone									Nur f_r Personal
 interfacedeployment_maxseczone										Hohe Sicherung
 interfacedeployment_minseczone										Niedrige Sicherung
@@ -192,9 +192,9 @@ interfacedeployment_zoneyellow										Gelber Fl_gel
 
 interfaceplanning_wall												W^nde
 interfaceplanning_object											Einrichtung
-interfaceplanning_route												Pfade
+interfaceplanning_route												Route
 
-interfacecontraband_source											Gefahren
+interfacecontraband_source											Gefahrenquelle
 interfacecontraband_day												Letzte 24 Stunden
 interfacecontraband_week											Letzte 7 Tage
 interfacecontraband_alltime											Alle
@@ -212,20 +212,20 @@ interfacetopbar_title_cctv											Kamera_berwachung
 interfacetopbar_title_day											Tag
 interfacetopbar_title_prisoners										Gefangene
 interfacetopbar_title_guards										W^chter
-interfacetopbar_title_tension										Gef^hrdungslevel
+interfacetopbar_title_tension										Gefahrenstufe
 
 interfacetopbar_tooltip_balance										Dein verf_gbares Geld, dass du ausgeben kannst.
 interfacetopbar_tooltip_budget										Dein t^glicher Umsatz, errechnet aus den aktuellen Einnahmen und Ausgaben.
-interfacetopbar_tooltip_cctv										Die aktuelle Anzahl der @berwachungskameras, die in deinem Gef^ngnis installiert sind.
+interfacetopbar_tooltip_cctv										Die aktuelle Anzahl der installierten @berwachungskameras.
 interfacetopbar_tooltip_day											So lange ist dein Gef^ngnis bereits ge`ffnet.
-interfacetopbar_tooltip_prisoners									Die Anzahl der Gefangenen die du aktuell in deinem Gef^ngnis inhaftiert hast und die Anzahl wie viele Gefangene du halten k`nntest.
+interfacetopbar_tooltip_prisoners									Die Anzahl der aktuell inhaftierten Gefangenen und die maximale Kapazit^t deines Gef^ngnisses.
 interfacetopbar_tooltip_guards										Die Anzahl der Wachen, die du eingestellt hast und womit sie gerade besch^ftigt sind.
-interfacetopbar_tooltip_tension										Das aktuelle Gef^hrdungslevel, eingesch^tzt von deinem Sicherheitschef.
+interfacetopbar_tooltip_tension										Die aktuelle Gefahrenstufe, eingesch^tzt von deinem Sicherheitschef.
 
 interfacetopbar_tooltip_totalguards									*X eingestellte W^chter
 interfacetopbar_tooltip_guardincapacitated							*X arbeitsunf^hig
 interfacetopbar_tooltip_guardstationed								*X stationiert
-interfacetopbar_tooltip_guardpatrolling								*X patroullieren
+interfacetopbar_tooltip_guardpatrolling								*X patrouillieren
 interfacetopbar_tooltip_guardavailable								*X verf_gbar
 interfacetopbar_tooltip_guardresting								*X ausruhend
 interfacetopbar_tooltip_guardactive									(*X reagieren auf Zwischenf^lle)
@@ -239,11 +239,11 @@ interfacetopbar_prisoners_types										Aktuell inhaftierte Gefangene: *X
 interfacetopbar_prisoners_capacity									Maximal m`gliche Kapazit^t: *X
 
 interfacetopbar_cctv_current										Aktuell laufen *C Kameras
-interfacetopbar_cctv_cap											Weiterer Platz f_r *C Kameras
+interfacetopbar_cctv_cap											Platz f_r *C weitere Kameras
 
-interfacetopbar_tension_currentlevel								Das Gef^hrdungslevel ist *X
-interfacetopbar_tension_increasing									und ist ansteigend
-interfacetopbar_tension_decreasing									und ist fallend
+interfacetopbar_tension_currentlevel								Die Gefahrenstufe ist *X
+interfacetopbar_tension_increasing									und steigt
+interfacetopbar_tension_decreasing									und f^llt
 interfacetopbar_tension_description									FAKTOREN:
 interfacetopbar_tension_happyprisoners								- *X Gefangene sagen, dass sie gut behandelt werden
 interfacetopbar_tension_unhappyprisoners							+ *X Gefangene haben ernsthafte Beschwerden
@@ -269,7 +269,7 @@ gameover_caption													Dr_cke ESC um fortzusetzen
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 
 hardware_compat_title												Hardware Kombatibilit^ts-Test
-hardware_compat_message												Mit deiner Einwilligung w_rden wir gerne die folgenden Informationen _ber die Hardware deines PCs sammeln.\n\nDiese Daten werden komplett anonym ausgewertet und werden uns helfen sicherzustellen, dass Prison Architect die m`glichst gr`;ste Bandbreite and Hardware unterst_tzt.\n\nVielen Dank!
+hardware_compat_message												Mit deiner Einwilligung w_rden wir gerne die folgenden Informationen _ber die Hardware deines PCs sammeln.\n\nDiese Daten werden komplett anonym ausgewertet und werden uns helfen, dass Prison Architect eine m`glichst gro;e Bandbreite and Hardware unterst_tzt.\n\nVielen Dank!
 hardware_compat_accept												Akzeptieren
 hardware_compat_decline												Ablehnen
 
@@ -283,9 +283,9 @@ buildtoolbar_bangup													Arrest
 buildtoolbar_lockdown												Abriegelung
 buildtoolbar_shakedown												Durchsuchung
 
-buildtoolbar_tooltip_reports										Schaue auf dein Klemmbrett um Informationen _ber deine Gefangene, dein Personal, deine Finanzlage und vieles mehr zu bekommen.
-buildtoolbar_tooltip_bangup											Schicke alle gewillten Gefangene in ihre Zellen. Falls du sie zu lange einsperrt werden sie jedoch sehr ver^rgert werden...
-buildtoolbar_tooltip_lockdown										Schlie;t und sperrt sofort alle T_ren in deinem Gef^ngnis ab.
+buildtoolbar_tooltip_reports										Schaue auf dein Klemmbrett, um Informationen _ber deine Gefangene, dein Personal, deine Finanzlage und vieles mehr zu bekommen.
+buildtoolbar_tooltip_bangup											Schicke alle gewillten Gefangene in ihre Zellen. Falls du sie zu lange einsperrt werden sie jedoch sehr ver^rgert...
+buildtoolbar_tooltip_lockdown										Verschlie;t und sperrt sofort alle T_ren in deinem Gef^ngnis.
 buildtoolbar_tooltip_shakedown										Ordne eine sofortige Durchsuchung aller Zellen an. Das wird deinen Inhaftierten allerdings garnicht gefallen.
 
 buildtoolbar_cost													Kosten: $*C
@@ -300,127 +300,127 @@ buildtoolbar_walk_speed_fast										Schnell
 buildtoolbar_locked													GESPERRT (Du musst erst "*B" freischalten)
 buildtoolbar_room													Raum
 
-buildtoolbar_popup_foundations										Baue und Demoliere Fundamente um dein Gef^ngnis grundlegend zu gestalten.
-buildtoolbar_popup_construction										Verschiedene Typen von B`denbel^gen, Mauern und Z^unen.
-buildtoolbar_popup_planning											Plane mit diesem Hilfsmittel dein Gef^ngnis ohne Angst haben zu m_ssen, dass deine Arbeiter wirklich etwas davon bauen.
-buildtoolbar_popup_designation										Weise veschiedenen Gebieten oder R^umen eine bestimmte Funktion zu wie zum Beispiel Dursche, K_che, B_ro, oder ^hnliches.
+buildtoolbar_popup_foundations										Baue und zerst`re Fundamente, um dein Gef^ngnis grundlegend zu gestalten.
+buildtoolbar_popup_construction										Verschiedene Typen von Bodenbel^gen, Mauern und Z^unen.
+buildtoolbar_popup_planning											Plane mit diesem Hilfsmittel dein Gef^ngnis, ohne Angst haben zu m_ssen, dass deine Schneem^nner wirklich etwas davon bauen.
+buildtoolbar_popup_designation										Weise verschiedenen Gebieten oder R^umen eine bestimmte Funktion zu, wie zum Beispiel Dusche, K_che, B_ro, oder ^hnliches.
 buildtoolbar_popup_objects											Platziere Gegenst^nde und Einrichtung in und um dein Gef^ngnis herum.
 buildtoolbar_popup_overlays											[DEV] Visually identify weaknesses in your prison's layout.
-buildtoolbar_popup_utilities										Deine Wasserversorgung und elektische Verkabelung.
-buildtoolbar_popup_staff											Stelle die notwendigen Personen ein um dein Gef^ngnis am Laufen zu halten.
+buildtoolbar_popup_utilities										Deine Wasser- und Stromversorgung.
+buildtoolbar_popup_staff											Stelle die notwendigen Personen ein, um dein Gef^ngnis am Laufen zu halten.
 buildtoolbar_popup_deployment										Ordne deinem Personal verschiedenen Gebieten in deinem Gef^ngnis zu.
 buildtoolbar_popup_research											Erforsche neue M`glichkeiten f_r dein Gef^ngnis.
 buildtoolbar_popup_emergencies										Fordere Notfalldienste an, falls es dir zu brenzlich wird.
 buildtoolbar_popup_spawn											[DEV] Spawn? The fuck does this do?
 buildtoolbar_popup_clone											Faulheit ist die Mutter aller Erfindungen.
 buildtoolbar_popup_properties										[DEV] Find out about shit.
-buildtoolbar_popup_contraband										Eine @bersicht _ber m`gliche Quellen von Schmuggelware in deinem Gef^ngnis und _ber k_rzlich wiedergefundene, geschmuggelte Gegenst^nde.
+buildtoolbar_popup_contraband										Eine @bersicht _ber m`gliche Quellen von Schmuggelware in deinem Gef^ngnis, sowie _ber k_rzlich wiedergefundene, geschmuggelte Gegenst^nde.
 
-buildtoolbar_popup_room_cell										Die typische Einzelzelle f_r deine Insassen.
-buildtoolbar_popup_room_holdingcell									Ein geselliges Pl^tzchen wo deine neusten Errungenschaften unterbracht werden, bis eine Einzelzelle f_r sie gefunden wird.
-buildtoolbar_popup_room_solitary									Ein abglegener Raum wo die Schlimmsten der Schlimmsten bei Fehlverhalten tempor^r eingekert und isoliert werden.
-buildtoolbar_popup_room_canteen										Hier treffen sich deine Gefangene um bei Kaffee und Kuchen zu tratschen.
-buildtoolbar_popup_room_kitchen										Der Arbeitsplatz f_r deine 5-Sterne-K`che um den Gefangenen ein K^sebrot zu schmieren.
-buildtoolbar_popup_room_shower										Ben`tigt um deine Gefangenen sauber und frei von L^usen zu halten. Lass blo; nicht die Seife fallen...
+buildtoolbar_popup_room_cell										Die typische Zelle f_r deine Insassen.
+buildtoolbar_popup_room_holdingcell									Ein geselliges Pl^tzchen, wo deine neusten Errungenschaften untergebracht werden, bis eine Zelle f_r sie frei wird.
+buildtoolbar_popup_room_solitary									Ein abgelegener Raum, wo die Schlimmsten der Schlimmsten bei Fehlverhalten tempor^r eingekerkert und isoliert werden.
+buildtoolbar_popup_room_canteen										Hier treffen sich deine Gefangene, um bei Kaffee und Kuchen zu tratschen.
+buildtoolbar_popup_room_kitchen										Der Arbeitsplatz f_r deine 5-Sterne-K`che, um den Gefangenen ein K^sebrot zu schmieren.
+buildtoolbar_popup_room_shower										Wird ben`tigt, um deine Gefangenen sauber und frei von L^usen zu halten. Lass blo; nicht die Seife fallen...
 buildtoolbar_popup_room_yard										Lass deine Insassen ab und zu ein paar Sonnenstrahlen sehen. Nat_rlich nur unter strickter Aufsicht deiner Wachen.
-buildtoolbar_popup_room_storage										Ein Gebiet wo deine Arbeiter alle Materialien und Objekte lagern, die du gekauft aber nicht verbaut hast.
+buildtoolbar_popup_room_storage										Ein Gebiet, in welchem deine Schneem^nner alle Materialien und Objekte einlagern, die du gekauft, aber nicht verbaut hast.
 buildtoolbar_popup_room_deliveries									Hier werden gekaufte Waren, nachgelieferten Materialien und auch deine neuen Gefangenen abgeliefert.
-buildtoolbar_popup_room_garbage										Hier holen die Trucks deinen M_ll ab.
-buildtoolbar_popup_room_execution									Manche nennen es "Das j_ngste Gericht", mache einfach "Elektrischer Stuhl", aber nichts desto trotz sollte man sich nicht einfach so drauf setzen.
-buildtoolbar_popup_room_workshop									Schicke deine Gefangenen hier zur Zwangsarbeit wo sie dir Nummernschilder fertigen, die t^glich verkauft werden.
-buildtoolbar_popup_room_security									Ein Raum nur f_r deine Wachen.
-buildtoolbar_popup_room_office										B_roraum f_r dein administratives Personal um Kaffee zu schl_rfen und die Beine hochzulegen.
-buildtoolbar_popup_room_medicalward									Ob ein Splitter im Daumen oder ein Pfeil im Knie - irgendwann landen sie hier alle.
-buildtoolbar_popup_room_morgue										Hier werden tote Gefangenen und get`tetes totes Personal mit einem Zettelchen am gro;en Zeh k_hl gelagert bis sie vom Leichenwagen abgeholt werden.
-buildtoolbar_popup_room_commonroom									Erlaube deinen Insassen ein bisschen Freizeit um zu entspannen.
-buildtoolbar_popup_room_laundry										Damit die Gefangenen auch was h_bsches, sauberes zum Anziehen haben, wenn die Familie zu Besuch kommt.
-buildtoolbar_popup_room_visitation									Alle freuen sich _ber den Besuch und manch Andere auch _ber den Kuchen mit eingebackender Feile.
-buildtoolbar_popup_room_cleaningcupboard							Was die Gefangenen dreckig machen d_rfen sie auch selber sauber machen.
+buildtoolbar_popup_room_garbage										Hier holen die Lieferwagen deinen M_ll ab.
+buildtoolbar_popup_room_execution									Manche nennen es "Das j_ngste Gericht", mache einfach "Elektrischer Stuhl". Nichtsdestotrotz sollte man sich nicht einfach so daraufsetzen.
+buildtoolbar_popup_room_workshop									Schicke deine Gefangenen hier zur Zwangsarbeit, wo sie dir Nummernschilder und Holzplanken fertigen, welche t^glich verkauft werden.
+buildtoolbar_popup_room_security									[Hat aktuell keinen wirklichen Nutzen] Ein Raum nur f_r deine Wachen.
+buildtoolbar_popup_room_office										Ein B_roraum f_r dein Verwaltungspersonal um Kaffee zu schl_rfen und die Beine hochzulegen.
+buildtoolbar_popup_room_medicalward									Ob ein Splitter im Daumen oder ein Pfeil im Knie - irgendwann landen sie alle hier.
+buildtoolbar_popup_room_morgue										Hier werden tote Gefangenen und get`tetes Personal mit einem Zettelchen am gro;en Zeh k_hl gelagert, bis sie vom Leichenwagen abgeholt werden.
+buildtoolbar_popup_room_commonroom									Erlaube deinen Insassen ein bisschen Freizeit, um zu entspannen und sich abzureagieren.
+buildtoolbar_popup_room_laundry										Damit die Gefangenen auch was h_bsches, sauberes zum Anziehen haben, wenn die Familie, oder der Anwalt zu Besuch kommt.
+buildtoolbar_popup_room_visitation									Alle freuen sich _ber den Besuch und manch Andere auch _ber den Kuchen mit eingebackener Feile.
+buildtoolbar_popup_room_cleaningcupboard							Was die Gefangenen dreckig machen, d_rfen sie auch selber sauber machen.
 buildtoolbar_popup_room_kennel										Hier leben deine Hunde und ruhen sich bei Bedarf aus.
-buildtoolbar_popup_room_staffroom									Ein paar Sofas, eine kalte Cola und innerhalb einer Stunde ist dein Personal wieder auf H`chstform.
+buildtoolbar_popup_room_staffroom									Ein paar Sofas, eine kalte Cola und innerhalb einer Stunde ist dein Personal wieder in H`chstform.
 
-buildtoolbar_popup_obj_bed											Nicht zu weich, nicht zu hart, sondern genau passend... auf jeden Fall passend f_r Verbrecher.
-buildtoolbar_popup_obj_toilet										Wenn man allen diesen Exzentrikern Glauben schenken soll ist dies durchaus wichtig f_r die meisten Menschen.
-buildtoolbar_popup_obj_table										Harmoniert super mit einem Stuhl zusammen.
-buildtoolbar_popup_obj_chair										Man kann wahrscheinlich drauf sitzen.
-buildtoolbar_popup_obj_bench										Harmoniert super mit einem Tisch zusammen.
+buildtoolbar_popup_obj_bed											Nicht zu weich, nicht zu hart, sondern genau richtig... auf jeden Fall "gut" genug f_r Verbrecher.
+buildtoolbar_popup_obj_toilet										Wenn man allen diesen Exzentrikern Glauben schenken soll, dann ist dies ein durchaus wichtiges Objekt f_r die meisten Menschen.
+buildtoolbar_popup_obj_table										Harmoniert super mit einer Bank.
+buildtoolbar_popup_obj_chair										Man kann wahrscheinlich darauf sitzen.
+buildtoolbar_popup_obj_bench										Harmoniert super mit einem Tisch.
 buildtoolbar_popup_obj_electricchair								2000V voller Gerechtigkeit.
-buildtoolbar_popup_obj_jaildoor										L^sst deine Gefangenen dort bleiben wo sie sein sollen.
-buildtoolbar_popup_obj_jaildoorlarge								L^sst viele deiner Gefangen dort bleiben wo sie sein sollen.
+buildtoolbar_popup_obj_jaildoor										L^sst deine Gefangenen dort bleiben, wo sie sein sollen.
+buildtoolbar_popup_obj_jaildoorlarge								L^sst viele deiner Gefangen dort bleiben, wo sie sein sollen.
 buildtoolbar_popup_obj_door											Eine einfache T_r.
-buildtoolbar_popup_obj_solitarydoor									Eine stark gepanzerte Gef^ngnist_r um sogar die st^rksten Insassen an der Flucht zu hindern.
-buildtoolbar_popup_obj_staffdoor									Eine modische, gr_ne T_r nur f_r dein Personal.
-buildtoolbar_popup_obj_window										Um einen fl_chtigen Blick auf ein bisschen Sonne zu bekommen.
-buildtoolbar_popup_obj_windowlarge									Um einen fl_chtigen Blick auf viel Sonne zu bekommen.
-buildtoolbar_popup_obj_tree											Deine M`glichkeit um die globale Erw^rmung ein wenig einzud^mmen.
+buildtoolbar_popup_obj_solitarydoor									Eine stark gepanzerte Gef^ngnist_r, um sogar die st^rksten Insassen an der Flucht zu hindern.
+buildtoolbar_popup_obj_staffdoor									Eine modische, gr_ne T_r, nur f_r dein Personal.
+buildtoolbar_popup_obj_window										Um einen fl_chtigen Blick auf ein bisschen Sonne zu erhaschen.
+buildtoolbar_popup_obj_windowlarge									Um einen fl_chtigen Blick auf viel Sonne zu erhaschen.
+buildtoolbar_popup_obj_tree											Deine M`glichkeit, um die globale Erw^rmung ein wenig einzud^mmen. Zudem k`nnen B^ume von deinen Schneem^nnern gef^llt werden, welche in der Werkstatt weiter verarbeitet werden k`nnen.
 buildtoolbar_popup_obj_light										Stelle sicher, dass du deine Insassen zu jeder Uhrzeit auch gut siehst.
 buildtoolbar_popup_obj_cooker										Gebe deinen Gefangenen den Luxus von warmen Essen.
 buildtoolbar_popup_obj_fridge										Bewahrt deine Lebensmittelvorr^te vor der sicheren Verrottung.
-buildtoolbar_popup_obj_bin											Sauberkeit ist sehr wichtig wenn es dadrum geht Schmuggel zu unterbinden.
-buildtoolbar_popup_obj_sink											Alle K`che sind angehalten einmal pro Woche ihre H^nde zu waschen.
-buildtoolbar_popup_obj_servingtable									Hier tischen deine K`che den Gefangenen ihr Essen auf.
+buildtoolbar_popup_obj_bin											Sauberkeit ist sehr wichtig, wenn es dadrum geht Schmuggel zu unterbinden.
+buildtoolbar_popup_obj_sink											Alle K`che sind dazu angehalten sich einmal pro Woche ihre H^nde zu waschen.
+buildtoolbar_popup_obj_servingtable									Hier tischen deine K`che den Gefangenen das Essen auf.
 buildtoolbar_popup_obj_showerhead									Ein Duschkopf. Zum duschen.
 buildtoolbar_popup_obj_bookshelf									Ein B_cherregal voller B_cher.
-buildtoolbar_popup_obj_officedesk									Dein Personal muss immer wieder einiges niederschreiben. Gebe ihnen einen Schreibtisch als Unterlage.
-buildtoolbar_popup_obj_filingcabinet								Dein Personal muss deren Notizen nat_rlich ordentlich einsortieren.
-buildtoolbar_popup_obj_medicalbed									Ein super Platz wo deine Medikamente rumliegen k`nnen bis deine Insassen sie stehlen, wenn sie zur Behandlung sind.
-buildtoolbar_popup_obj_morgueslab									Stelle sicher, dass alle Toten eine repektvolle Verpackung bekommen, bevor sie abgeholt werden.
-buildtoolbar_popup_obj_drain										Falls die Gefangenen ein bisschen zu viel mit der Badeente spielen, verhinden die Abfl_sse gro;e @berschwemmungen.
+buildtoolbar_popup_obj_officedesk									Dein Personal muss immer wieder einiges niederschreiben. Gib ihnen einen Schreibtisch als Unterlage.
+buildtoolbar_popup_obj_filingcabinet								Dein Personal muss ihre Notizen nat_rlich ordentlich einsortieren.
+buildtoolbar_popup_obj_medicalbed									Ein super Platz wo deine Medikamente rumliegen k`nnen, bis deine Insassen sie bei einer Behandlung stehlen.
+buildtoolbar_popup_obj_morgueslab									Stelle sicher, dass alle Toten eine respektvolle Verpackung bekommen, bevor sie abgeholt werden.
+buildtoolbar_popup_obj_drain										Falls die Gefangenen ein bisschen zu viel mit der Badeente spielen, verhindern die Abfl_sse allzu gro;e @berschwemmungen.
 buildtoolbar_popup_obj_sprinkler									Bespr_ht bei einem Brand automatisch ein Gebiet mit Wasser.
-buildtoolbar_popup_obj_metaldetector								Finde Schmuggelware die Gefangene bei sich tragen. Die n^chste freie Wache k_mmert sich dann um den @belt^ter.
-buildtoolbar_popup_obj_weightsbench									Erlaube deinen Gefangenen zu trainieren. Das h^lt sie bei Laune.
-buildtoolbar_popup_obj_phonebooth									Manche Gefangenen m`chten vielleicht mit ihrer Familie telefonieren.
-buildtoolbar_popup_obj_tv											Beruhige deine Insassen mit totlangweiligen Sendungen aus der ganzen Welt.
+buildtoolbar_popup_obj_metaldetector								Finde mit dieser Anlage metallische Schmuggelware, die Gefangene bei sich tragen. Die n^chste freie Wache k_mmert sich dann um den @belt^ter.
+buildtoolbar_popup_obj_weightsbench									Erlaube deinen Gefangenen zu trainieren. Das h^lt sie bei Laune... und fit f_r die Flucht.v
+buildtoolbar_popup_obj_phonebooth									Manche Gefangenen m`chten vielleicht ab und zu mit ihrer Familie telefonieren.
+buildtoolbar_popup_obj_tv											Beruhige deine Insassen mit todlangweiligen Sendungen aus der ganzen Welt.
 buildtoolbar_popup_obj_largetv										Erlaube deinen Insassen ihre Gehirne vollst^ndig verrotten zu lassen. Hartz IV - TV im Gro;format.
 buildtoolbar_popup_obj_pooltable									Vertreibe die Eint`nigkeit des Gef^ngnislebens mit einer Runde Billard. Zudem sind die Queues super Schlagwaffen.
-buildtoolbar_popup_obj_cctv											Halte ein Auge auf deine Gefangenen, wenn deine Wachen nicht _berall gleichzeitig sein k`nnen. Braucht einen Monitor um zu funktionieren.
-buildtoolbar_popup_obj_cctvmonitor									Erlaubt bis zu 6 Kameras zu nutzen, solange eine Wache in der N^he ist.
+buildtoolbar_popup_obj_cctv											Halte ein Auge auf deine Gefangenen, wenn deine Wachen nicht _berall gleichzeitig sein k`nnen. Ben`tigt einen Monitor, um zu funktionieren.
+buildtoolbar_popup_obj_cctvmonitor									Erm`glicht die Nutzung von bis zu 6 Kameras pro Monitor, solange eine Wache vor den Bildschirmen h^ngt.
 buildtoolbar_popup_obj_laundrymachine								Eine handels_bliche Waschmaschiene.
-buildtoolbar_popup_obj_laundrybasket								Ein rollbarer W^schekorb f_r die Dreckw^sche.
-buildtoolbar_popup_obj_ironingboard									Die legend^ren @berreste des Silver Surfers werden hier nur noch genutzt um Uniformen zu b_geln.
-buildtoolbar_popup_obj_visitortable									Ein herrlicher Ort um sich von seinen Besuchern Zigaretten, Alkohol oder Handys zuschieben zu lassen.
-buildtoolbar_popup_obj_workshopsaw									Der Zuschnitt der blanken Nummernschilder erfolgt hier. Finger weg, sonst Finger ganz weg.
+buildtoolbar_popup_obj_laundrybasket								Ein rollbarer W^schekorb f_r die Schmutzw^sche.
+buildtoolbar_popup_obj_ironingboard									Die legend^ren @berreste des Silver Surfers werden hier nur noch genutzt, um Uniformen zu b_geln.
+buildtoolbar_popup_obj_visitortable									Ein herrlicher Ort, um sich von seinen Besuchern Zigaretten, Alkohol oder Handys zuschieben zu lassen.
+buildtoolbar_popup_obj_workshopsaw									Der Zuschnitt der blanken Nummernschilder, sowie der Holzst^mme erfolgt hier. Finger weg, sonst Finger ganz weg!
 buildtoolbar_popup_obj_workshoppress								Mit dieser Presse werden die blanken Nummernschilder mit den passenden Ziffern und Zahlen versehen.
 buildtoolbar_popup_obj_dogcrate										Hundeh_tten waren leider aus, aber die Hundeboxen sehen doch auch ganz gem_tlich aus.
 buildtoolbar_popup_obj_sofachairsingle								Ein gem_tliches, kleines Sofa.
-buildtoolbar_popup_obj_sofachairdouble								Ein Sofa, dass breit genug ist um nicht nur drauf sitzen zu k`nnen.
+buildtoolbar_popup_obj_sofachairdouble								Ein Sofa, dass breit genug ist, um nicht nur drauf sitzen zu k`nnen.
 buildtoolbar_popup_obj_drinkmachine									Bei einer kalten Cola l^sst es sich doch gleich viel besser entspannen.
 buildtoolbar_popup_obj_dismantleobject								Entferne einen Gegenstand aus deinem Gef^ngnis.
-buildtoolbar_popup_obj_roadgate										Eine Stra;entor, welche die Lieferwagen hindurch l^sst, aber die Gefangenen nicht.
-buildtoolbar_popup_obj_sellobject									Verkaufe ein Objekt um Kapital daraus zu schlagen.
+buildtoolbar_popup_obj_roadgate										Ein Stra;entor, welches die Lieferwagen hindurch l^sst, aber die Gefangenen nicht.
+buildtoolbar_popup_obj_sellobject									Verkaufe ein Objekt, um Kapital daraus zu schlagen.
 
-buildtoolbar_popup_staff_workman									Diese Arbeiter werden alles in deinem Gef^ngnis, nach deinem Auftrag, f_r dich bauen.
-buildtoolbar_popup_staff_guard										Wachen werden gebraucht um keinen \rger in deinem Gef^ngnis aufkommen zu lassen.
-buildtoolbar_popup_staff_doctor										Heilt automatisch verletzte Personen in der N^he. Egal ob Personal oder Gefangener.
-buildtoolbar_popup_staff_cook										Kocht f_r deine Gefangenen Mahlzeiten.
-buildtoolbar_popup_staff_gardener									H^lt deine Rasenfl^chen blatt- und tadellos.
-buildtoolbar_popup_staff_janitor									H^lt es in den inneren deiner R^umlichkeiten sauber.
-buildtoolbar_popup_staff_warden										Der gro;e Kopf hinter deinem Gef^ngnis. Ihn brauchst du um weitere Sachen zu erforschen und fortschrittliches Personal anzuheuern.
+buildtoolbar_popup_staff_workman									Diese Schneem^nner werden alles in deinem Gef^ngnis f_r dich bauen, wenn du sie damit beauftragst.
+buildtoolbar_popup_staff_guard										Wachen werden gebraucht, um \rger in deinem Gef^ngnis zu unterbinden.
+buildtoolbar_popup_staff_doctor										Behandelt und heilt automatisch verletzte Personen in der N^he. Egal ob Personal oder Gefangener.
+buildtoolbar_popup_staff_cook										Kocht die Mahlzeiten f_r deine Gefangenen.
+buildtoolbar_popup_staff_gardener									H^lt deine Rasenfl^chen blatt- und nadellos.
+buildtoolbar_popup_staff_janitor									H^lt es in deinen R^umlichkeiten sauber.
+buildtoolbar_popup_staff_warden										Der verwaltende Kopf hinter deinem Gef^ngnis. Ihn brauchst du, um weitere Sachen freizuschalten und fortschrittliches Personal anzuheuern.
 buildtoolbar_popup_staff_chief										Der Chef der Wache. Erlaubt dir das erforschen von @berwachungskameras, Wachstationierung und Weiterem.
 buildtoolbar_popup_staff_foreman									Der Vorarbeiter erlaubt dir Hausmeister, G^rtner und andere Sachen freizuschalten.
-buildtoolbar_popup_staff_psychologist								Ein Psychologe der dir erlaubt die Bed_rfnisse und Gedanken der Gefangenen zu lesen.
+buildtoolbar_popup_staff_psychologist								Ein Psychologe, der dir erlaubt, die Bed_rfnisse und Gedanken der Gefangenen zu deuten.
 buildtoolbar_popup_staff_accountant									Die Buchhalterin erlaubt dir eine Aufschl_sselung deiner Finanzen.
 buildtoolbar_popup_staff_lawyer										[Dient aktuell keinem Nutzen] Ein Rechtsanwalt.
-buildtoolbar_popup_staff_doghandler									Ein Hundef_hrer und sein getreuer Sch^ferhund kann zum erschn_ffeln von mancher illegalen Schmuggelware helfen.
+buildtoolbar_popup_staff_doghandler									Der treue Sch^ferhund eines Hundef_hrers kann zum erschn_ffeln von mancher illegalen Schmuggelware helfen. Zudem stoppt er fliehende Gefangene, oder kann Fluchttunnel erschn_ffeln.
 
 buildtoolbar_popup_uts_powerstation									Generiert Elektrizit^t f_r dein Gef^ngnis.
-buildtoolbar_popup_uts_capacitor									Expandiert die Menge an Energie, die ein Elelektrizit^tskraftwerk produziert, wenn man diesen Kondensator danaben platziert.
+buildtoolbar_popup_uts_capacitor									Erh`ht die Menge an Energie, die ein Generator produziert, wenn man diesen Kondensator daneben platziert.
 buildtoolbar_popup_uts_electricalcable								Verteilt die Elektrizit^t in ihrem Gef^ngnis.
-buildtoolbar_popup_uts_powerswitch									Schaltet die Verf_gbarkeit der Elektrizit^tsversorgung an oder aus.
+buildtoolbar_popup_uts_powerswitch									Schaltet die Stromzufuhr von verbunden Kabeln zu oder weg.
 buildtoolbar_popup_uts_waterpumpstation								Stellt eine lokale Wasserversorgung durch ein Pumpwerk in ihrem Gef^ngnis bereit.
-buildtoolbar_popup_uts_pipevalve									Schlie;t oder `ffnet das Ventil um die Wasserversorgung bereitzustellen oder zu unterbrechen.
-buildtoolbar_popup_uts_pipelarge									Stellt eine gro;e Menge an Wasser in deinem Gef^ngnis bereit. Wahrscheinlich gro; genug um jemanden 500 Meter, in fauliger Enge, in die Freiheit krabbeln zu lassen.
-buildtoolbar_popup_uts_pipesmall									Stellt eine kleinere Menge an Wasser bereit als die gro;en Rohre.
+buildtoolbar_popup_uts_pipevalve									Schlie;e oder `ffne das Ventil, um die Wasserversorgung bereitzustellen oder zu unterbrechen.
+buildtoolbar_popup_uts_pipelarge									Stellt eine gro;e Menge an Wasser in deinem Gef^ngnis bereit. Wahrscheinlich sind die Rohre gro; genug, um jemanden 500 Meter, in fauliger Enge, in die Freiheit krabbeln zu lassen.
+buildtoolbar_popup_uts_pipesmall									Stellt eine kleinere Menge an Wasser bereit, als die gro;en Rohre.
 buildtoolbar_popup_uts_dismantleutility								Entfernt Kabel oder Wasserrohre aus deinem Gef^ngnis.
 
-buildtoolbar_contraband_source										Zeigt alle Orte, an welchen Gefangene Gegenst^nde stehlen oder schmuggeln k`nnen.
+buildtoolbar_contraband_source										Zeigt alle Orte, an denen Gefangene Gegenst^nde stehlen oder schmuggeln k`nnten.
 buildtoolbar_contraband_day											Zeigt die beschlagnahmte Schmuggelware der letzten 24 Stunden
 buildtoolbar_contraband_week										Zeigt die beschlagnahmte Schmuggelware der letzten 7 Tage
-buildtoolbar_contraband_alltime										Zeigt alles an beschlagnahmter Schmuggelware, die jemals in diesem Gef^ngnis beschlagnahmt wurde
+buildtoolbar_contraband_alltime										Zeigt die gesamte Schmuggelware an, die jemals in diesem Gef^ngnis beschlagnahmt wurde
 
 job_matsassigned													Materialien zugewiesen
 job_matsavailable													Materialien verf_gbar
-job_awaitingmaterials												Wartet auf Materialien
+job_awaitingmaterials												Erwarte Materialien
 job_inprogress														Aufgabe in Bearbeitung
 job_blocked															Aufgabe (Blockiert)
 job_queued															Aufgabe (In Bearbeitung)
@@ -428,21 +428,21 @@ job_queued															Aufgabe (In Bearbeitung)
 job_failed_noroute													Keine verf_gbare Route
 job_failed_nomaterials												Keine Materialien
 job_failed_toodangerous												Zu gef^hrlich
-job_failed_materialsbeingcarried									Materials On Route
+job_failed_materialsbeingcarried									Materials auf dem Weg
 
 job_rightclicktocancel												Rechtsklick zum Abbrechen
 
 failuremessage_blocked												Blockiert
 failuremessage_cantafford											Nicht gen_gend Geld verf_gbar
-failuremessage_cantaffordupkeep										@berschreitet dein t^gliche Einkommen
-failuremessage_oneadministratormax									Bereits angeheuert
-failuremessage_maxstaff												Zu viel Personal angeheuert
+failuremessage_cantaffordupkeep										@berschreitet dein t^gliches Einkommen
+failuremessage_oneadministratormax									Bereits eingestellt
+failuremessage_maxstaff												Zu viel Personal eingestellt
 
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 ###INFO### 			Status Toolbar																																															###INFO###
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 
-statustoolbar_deliveries											Anlieferungen
+statustoolbar_deliveries											Lieferungen
 statustoolbar_finances												Finanzen
 statustoolbar_regime												Verwaltung
 statustoolbar_escapemap												Sicherheit
@@ -460,7 +460,7 @@ statustoolbar_research												Forschung
 
 spritebankeditor_title												Sprite Bank Editor
 spritebankeditor_create												Erstellen
-spritebankeditor_rotate												Rotieren
+spritebankeditor_rotate												Drehen
 spritebankeditor_sort												Sortieren
 spritebankeditor_markermodetitle									Marker Mode
 
@@ -469,7 +469,7 @@ spritebankeditor_markermodetitle									Marker Mode
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 
 codex_mainmenu														Hauptmen_
-codex_campaign														Kampange
+codex_campaign														Kampagne
 codex_cutscenes														Zwischensequenzen
 codex_qualifications												Qualifikationen
 codex_load															Gef^ngnis laden
@@ -495,7 +495,7 @@ codex_twitter														Twitter
 codex_extras														Extras
 
 codex_new															Erstelle ein neues Gef^ngnis
-codex_new_worldsize													Weltgr`;e
+codex_new_worldsize													Kartengr`;e
 codex_new_small														Klein
 codex_new_medium													Mittel
 codex_new_large														Gro;
@@ -511,9 +511,9 @@ codex_options_supersampled											Supersampled
 
 codex_options_audio													Audio
 codex_options_volume												Gesamtlautst^rke
-codex_options_frequency												Mix Frequency
-codex_options_swapstero												Swap Stereo
-codex_options_dspenabled											Enable DSP
+codex_options_frequency												Frequenz mischen
+codex_options_swapstero												Stereo tauschen
+codex_options_dspenabled											DSP aktivieren
 codex_options_11khz													11025 Hz
 codex_options_22khz													22050 Hz
 codex_options_44khz													44100 Hz
@@ -523,13 +523,13 @@ codex_options_autosave												Automatisch Speichern nach
 codex_options_renderrooms											Room Checkerbox
 codex_options_apply													Anwenden
 
-codex_enabled														Aktivieren
-codex_disabled														Deaktivieren
+codex_enabled														Aktiviert
+codex_disabled														Deaktiviert
 
 codex_option_intake													Anhaltende Einlieferung
-codex_tooltip_intake												Falls du dies aktivierst wirst du jeden Tag eine zuf^llige Anzahl an neuen Gefangenen erhalten. Bei Deaktivierung kannst du im Spiel entscheiden, wann du f_r Gefangene bereit bist und wann nicht.
+codex_tooltip_intake												Falls du dies aktivierst, wirst du jeden Tag eine zuf^llige Anzahl an neuen Gefangenen erhalten. Bei Deaktivierung kannst du im Spiel entscheiden, wann du f_r Gefangene bereit bist und wann nicht.
 codex_option_fogofwar												Nebel
-codex_tooltip_fogofwar												Du wirst die Sicht in das innere deiner Geb^ude verlieren, falls keine Wache oder @berwachungskamera in Sichtweite ist.
+codex_tooltip_fogofwar												Du wirst die Sicht in das innere deiner Geb^ude verlieren, falls sich dort keine Wache oder @berwachungskamera befindet.
 codex_option_lakes													Seen
 codex_tooltip_lakes													Auf deinem Gel^nde werden zuf^llig Seen generiert.
 codex_option_forests												W^lder
@@ -538,7 +538,7 @@ codex_option_buildings												Ruinen
 codex_tooltip_buildings												Erzeugt zuf^llig generierte Reste von Geb^uden auf deinem Gel^nde.
 
 codex_option_funds													Startkapital
-codex_tooltip_funds													Mit diesem Betrag wist du mit deinem neuen Gef^ngnis starten.\n\nNb. Verkaufe dein laufendes Gef^gnis um mehr Startkapital zur Verf_gung zu haben.
+codex_tooltip_funds													Mit diesem Betrag wirst du mit deinem neuen Gef^ngnis starten.\n\nNb. Verkaufe dein laufendes Gef^gnis, um mehr Startkapital zur Verf_gung zu haben.
 
 codex_transfer														@berf_hren
 codex_transferring													Wird _berf_hrt
@@ -556,33 +556,33 @@ codex_workshop_title												Titel
 codex_workshop_desc													Beschreibung
 codex_workshop_view_in_workshop										Im Steam Workshop anzeigen
 codex_workshop_heading_pubed										Deine ver`ffentlichten Gef^ngnisse
-codex_workshop_heading_subed										Abonierte Gef^ngnisse
+codex_workshop_heading_subed										Abonnierte Gef^ngnisse
 codex_workshop_published_by											Ver`ffentlicht von *P
 codex_workshop_published_by_you										Ver`ffentlicht von dir
 codex_workshop_published_good										Gef^ngnis ver`ffentlicht
-codex_workshop_published_good_msg									Dein Gef^gnis wurde erfolgreich ver`ffentlicht.
+codex_workshop_published_good_msg									Dein Gef^ngnis wurde erfolgreich ver`ffentlicht.
 codex_workshop_published_bad										Ver`ffentlichung des Gef^ngnisses fehlgeschlagen
 codex_workshop_published_bad_msg									Die Ver`ffentlichung deines Gef^ngnisses schlug fehl.
-codex_workshop_published_bad_msg_new								Dein neues Gef^ngnis konnte nicht ver`ffentlicht werden. Versuche es bitte noch einmal.
-codex_workshop_busy													Steam ist noch besch^ftigt. Bitte warte bis Steam wieder bereit ist.
+codex_workshop_published_bad_msg_new								Dein neues Gef^ngnis konnte nicht ver`ffentlicht werden. Versuche es bitte erneut.
+codex_workshop_busy													Steam ist gerade leider ausgelastet. Bitte warte, bis Steam wieder bereit ist.
 codex_workshop_file_exists											Du hast bereits ein Gef^ngnis mit diesem Namen ver`ffentlicht. Bitte nutze einen anderen Namen.
 codex_workshop_generic_fail											Ver`ffentlichung deines Gef^ngnisses fehlgeschlagen. Versuche es bitte noch einmal.
-codex_workshop_download_bad											Herunterladen des Gef^ngnisses gescheitert
+codex_workshop_download_bad											Herunterladen des Gef^ngnisses fehlgeschlagen.
 codex_workshop_pa_workshop											Workshop
-codex_workshop_agreement											Durch die Ver`ffentlichung dieses Objektes stimmst du den [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]allgemeinen Gesch^ftsbedingungen des Workshops[/url] zu.
+codex_workshop_agreement											Durch die Ver`ffentlichung dieses Objektes stimmst du den [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]AGB des Workshops[/url] zu.
 
 codex_options_timelapse												Zeitraffer
 codex_timelapse_record												Zeitrafferaufnahme starten
 codex_timelapse_stop												Zeitrafferaufnahme stoppen
 codex_timelapse_camera												Kamera-Modus
 codex_timelapse_resolution											Aufl`sung
-codex_timelapse_customresw											Eigene Aufl`sung: Weite
+codex_timelapse_customresw											Eigene Aufl`sung: Breite
 codex_timelapse_customresh											Eigene Aufl`sung: H`he
 codex_timelapse_resolution											Aufl`sung
 codex_timelapse_fps													Abspielrate
 codex_timelapse_interval											Bilderfassungsintervall
 codex_timelapse_quality												Qualit^t
-codex_timelapse_unsupported											Dieses Feature steht durch deine Hardware nicht zur Verf_gung.
+codex_timelapse_unsupported											Diese Funktion steht aufgrund deiner Hardware nicht zur Verf_gung.
 codex_timelapse_savesettings										Anwenden
 
 codex_performance_running											Leistungstest l^uft
@@ -603,8 +603,8 @@ codex_mod_activetitle												Aktive Mods
 codex_mod_inactivetitle												Verf_gbare Mods
 codex_mod_deactivate												Deaktiviere Mods
 codex_mod_wiki														Lade mehr Mods herunter [WIKI]
-codex_mod_openmodsfolder											|ffne den Modordner 
-codex_authortitle													Author
+codex_mod_openmodsfolder											Mod-Ordner `ffnen
+codex_authortitle													Autor
 codex_versiontitle													Version
 codex_datetitle														Datum
 codex_urltitle														URL
@@ -614,12 +614,12 @@ codex_mod_translation												@bersetzung
 codex_mod_scenario													Szenario
 codex_mod_content													Inhalt
 codex_mod_load_scenario												Spiele das Szenario
-codex_publishmod													Ver`ffentliche diesen Mod
+codex_publishmod													Ver`ffentliche diese Mod
 codex_mod_update													Mod aktuallisieren
 codex_mod_published_good											Mod ver`ffentlicht
-codex_mod_published_good_msg										Dein Mod wurde erfolgreich ver`ffentlicht.
+codex_mod_published_good_msg										Deine Mod wurde erfolgreich ver`ffentlicht.
 codex_mod_published_bad												Fehler bei der Ver`ffentlichung
-codex_mod_published_bad_msg											Dein Mod konnte nicht ver`ffentlicht werden.
+codex_mod_published_bad_msg											Deine Mod konnte nicht ver`ffentlicht werden.
 codex_mod_modsupdated												Mods aktuallisiert
 codex_mod_modsupdated_msg											Einge deiner aktiven Mods wurden aktuallisiert. Klicke "OK" um die \nderungen zu _bernehmen. Dein Spielstand wird automatisch gespeichert.
 
@@ -657,18 +657,18 @@ rapsheet_served														Abgesessen
 rapsheet_served_time												Abgesessen: *Y Jahr
 rapsheet_time														*Y Jahre
 rapsheet_bio														Verurteilt zu *Y Jahre Haft f_r *A.
-rapsheet_bio_med													Verurteilt zu *Y Jahre Haft f_r mehrfache Verbrechen. Einschlie;lich *A, und *B.
-rapsheet_bio_long													Verurteilt zu *Y Jahre f_r mehrfache Verbrechen. Einschlie;end *A, *B, und *C.
+rapsheet_bio_med													Verurteilt zu *Y Jahre Haft f_r mehrfache Verbrechen, einschlie;lich *A, und *B.
+rapsheet_bio_long													Verurteilt zu *Y Jahre f_r mehrfache Verbrechen, einschlie;lich *A, *B, und *C.
 
-rapsheet_category_minsec											Niedrige Sicherheitsstufe
-rapsheet_category_normal											Normale Sicherheitsstufe
-rapsheet_category_maxsec											Hohe Sicherheitsstufe
+rapsheet_category_minsec											Niedrige Gefahrenstufe
+rapsheet_category_normal											Normale Gefahrenstufe
+rapsheet_category_maxsec											Hohe Gefahrenstufe
 
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 ###INFO### 			Misconducts																																																###INFO###
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 
-misconduct_reporttype_none											Keins
+misconduct_reporttype_none											Keine
 misconduct_reporttype_complaint										Beschwerde
 misconduct_reporttype_destruction									Zerst`rung
 misconduct_reporttype_escapeattempt									Fluchtversuch
@@ -685,33 +685,33 @@ misconduct_reporttype_contrabandluxuries							Luxusg_terbesitz
 ###INFO### 			Research Names + Captions																																												###INFO###
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 
-research_required													Folgendes Personal ben`tigt um diese Seite zu nutzen: *X
-research_requireunlock												Du musst "*X" erforschen um diese Seite zu nutzen
+research_required													Folgendes Personal wird ben`tigt um diese Seite zu nutzen: *X
+research_requireunlock												Du musst "*X" erforschen, um diese Seite zu nutzen
 
-researchtooltip_warden												Schaltet das ganze B_rokratiesystem durch das Einstellen evon Vater Winter frei. Wie alle Administratoren braucht er ein B_ro um arbeiten zu k`nnen.
-researchtooltip_security											Schaltet den Sicherheitschef frei. Er wird dir stets einen aktuellen Bericht zum Gefahrenlevel in deinem Gef^ngnis liefern. Praktisch um \rger vorraus zu ahnen.
+researchtooltip_warden												Schaltet das Verwaltungssystem durch das Einstellen von Vater Winter frei. Wie alle Verwalter braucht er ein B_ro um arbeiten zu k`nnen.
+researchtooltip_security											Schaltet den Sicherheitschef frei. Er wird dir stets einen Bericht zur aktuellen Gefahrenstufe in deinem Gef^ngnis liefern. Recht praktisch, um \rger Im Voraus zu ahnen.
 researchtooltip_maintainance										Schaltet den Vorarbeiter frei.
 researchtooltip_legal												[Dient aktuell keinem Nutzen]\nSchaltet den Anwalt frei.
-researchtooltip_deployment											L^sst dich deine Wachen im Gef^ngnis stationieren und zuweisen.
-researchtooltip_patrols												Du kannst nun Routen f_r Patroullien erstellen und einzelne oder mehrerere Wachen zuweisen.
-researchtooltip_cctv												Schaltet f_r dich die M`glichkeit frei, mit Kameras und den entsprechenenden Monitoren, dein Gef^ngnis unter Aufsicht von @berwachungskameras zu stellen, wo Wachen mangelware sind. Zudem schaltet es das Sicherheitsb_ro frei, welches aktuell absolut keine Funktion hat.
-researchtooltip_riotguards											[Dient aktuell keinem Nutzen]\nSchaltet die Bereitschaftspolizei frei, welche bei Aufst^nden, um einiges effektiver und durchsetzungsst^rker ist.
-researchtooltip_clone												Gibt dir eine M`glichkeit schnell kleine Gebiete in deinem Gef^ngnis exakt zu kopieren, wie Zellen, B_ros und ^hnliches. W^hle eine Zone mit gehaltener rechter Maustaste aus und klicke dann mit der linken Maustaste um eine Kopie in Auftrag zu geben.
-researchtooltip_groundskeeping										Schaltet G^rtner frei. Er wird deine Rasenfl^chen sauber halten.
-researchtooltip_cleaning											Schaltet Hausmeister frei. Er reinigt alle Innenbereiche von deinem Gef^ngnis.
-researchtooltip_health												Schaltet \rtze frei, zusammen mit dem Spital und der Leichenhalle. Sowohl verletzte Gefangene oder verletztes Personal werden in das Spital gebracht um vom Arzt wieder aufgep^ppelt zu werden.
+researchtooltip_deployment											L^sst dich deine Wachen in R^umen stationieren.
+researchtooltip_patrols												Du kannst nun Routen f_r Patrouillen erstellen und einzelnen oder mehreren Wachen zuweisen.
+researchtooltip_cctv												Schaltet die M`glichkeit frei, mit Kameras und den entsprechenden Monitoren, Teile deines Gef^ngnisses unter Beobachtung von @berwachungskameras zu stellen, falls Wachen Mangelware sind. Zudem schaltet es das Sicherheitsb_ro frei, welches aktuell absolut keine Funktion hat.
+researchtooltip_riotguards											Schaltet die Bereitschaftspolizei frei, welche bei Aufst^nden, um einiges effektiver und durchsetzungsst^rker ist.
+researchtooltip_clone												Erm`glicht es dir kleine Gebiete in deinem Gef^ngnis exakt zu kopieren. W^hle eine Zone mit gehaltener rechter Maustaste aus und klicke dann mit der linken Maustaste um eine Kopie in Auftrag zu geben.
+researchtooltip_groundskeeping										Schaltet G^rtner frei. Diese werden deine Au;enbereiche sauber halten.
+researchtooltip_cleaning											Schaltet Hausmeister frei. Sie reinigen alle Innenbereiche deines Gef^ngnisses.
+researchtooltip_health												Schaltet \rtze frei, zusammen mit der Krankenstation und der Leichenhalle. Sowohl verletzte Gefangene als auch verletztes Personal werden auf die Krankenstation gebracht um vom Arzt wieder aufgep^ppelt zu werden.
 researchtooltip_MentalHealth										Schaltet Psychologen frei, welcher dir jederzeit einen wertvollen Einblick in die Psyche der Gefangenen erlaubt.
-researchtooltip_finance												Schaltet Buchhalter frei, welcher dir Zugang zu ausf_hrlichen Finanzb_chern gibt. \n\nEbenso erlaubt er dir mehr Geld pro Tag auszugeben, als du mit deinem Einkommen einnehmen w_rdest.
+researchtooltip_finance												Schaltet die Buchhalterin frei, welche dir Zugang zu ausf_hrlichen Finanzberichten gibt. \n\nEbenso erlaubt sie dir mehr Geld pro Tag auszugeben, als du mit deinem Einkommen einnehmen w_rdest.
 researchtooltip_landexpansion										Autorisiert dich weiteres Land zu kaufen, damit du dein Gef^ngnis vergr`;ern kannst.
 researchtooltip_ReducePenalty1										[Dient aktuell keinem Nutzen]
 researchtooltip_ReducePenalty2										[Dient aktuell keinem Nutzen]
 researchtooltip_ReducePenalty3										[Dient aktuell keinem Nutzen]
 researchtooltip_ReducePenalty4										[Dient aktuell keinem Nutzen]
 researchtooltip_ReducePenalty5										[Dient aktuell keinem Nutzen]
-researchtooltip_prisonlabour										Erlaubt dir deine nichtsnutzigen Gefangenen zur Arbeit zu verdonnern. Darunter z^hlt Kochen, Putzen, W^sche waschen und Nummernschilder fertigen. Du sparst also Personal und die Nummernschilder kannst du sogar verkaufen. \nSchaltet ebenso die Werkstatt und die W^scherei frei.
+researchtooltip_prisonlabour										Erlaubt dir deine nichtsnutzigen Gefangenen zur Arbeit zu verdonnern. Darunter z^hlt Kochen, Putzen, W^sche waschen, sowie Nummernschilder und Planken fertigen. Du sparst also Personal und die Nummernschilder sowie die Planken werden t^glich verkauft. \nSchaltet ebenso die Werkstatt und die W^scherei frei.
 researchtooltip_contraband											Du trainierst deine Wachen damit ihnen Schmuggelware besser auff^llt. Schaltet den Angebot und Nachfrage-Bericht frei und eine @bersicht _ber R^ume in denen Ware gestohlen werden kann. Zudem werden die Routen der konfiszierten Gegenst^nde angezeigt.
-researchtooltip_policy												Gibt dir die M`glichkeit Folgen durch Fehlverhalten der Gefangenen individuell zu bestrafen oder mit Durchsuchungen zu verbinden. Eine @bersicht findest du auf deinem Klemmbrett unter "Regelwerk"
-researchtooltip_dogs												Durch diese Freischaltung bekommst du die M`glichkeit Wachhunde mit zugeh`rigen Hundef_hrern einzustellen. Wachhunde k`nnen manche Gegenst^nde, die Gefangene unerlaubt bei sich tragen, erschn_ffeln, was sie mit einem Bellen quittieren. Wenn Hunde an einer Stelle am Boden scharren ist das ein guter Hinweis das ein Fluchttunnel in der N^he ist.
+researchtooltip_policy												Gibt dir die M`glichkeit, Strafen, f_r das Fehlverhalten von Gefangenen, individuell zu verh^ngen oder mit Durchsuchungen zu verbinden. Eine @bersicht findest du auf deinem Klemmbrett unter "Regelwerk".
+researchtooltip_dogs												Durch diese Freischaltung bekommst du die M`glichkeit Wachhunde mit zugeh`rigen Hundef_hrern einzustellen. Wachhunde k`nnen manche Gegenst^nde, die Gefangene unerlaubt bei sich tragen, erschn_ffeln, was sie mit einem Bellen quittieren. Wenn Hunde an einer Stelle am Boden scharren ist das ein Hinweis, dass ein Fluchttunnel in der N^he sein k`nnte.
 
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 ###INFO### 			Room Requirements																																														###INFO###
@@ -736,7 +736,7 @@ unlock_special_electricity											Elektische Systeme
 unlock_special_food													Essenvorbereitung
 unlock_special_officersafety										W^chter-Sicherheit
 unlock_special_misbehavior											Fehlverhalten
-unlock_special_accounting											Bilanzierung (Accounting)
+unlock_special_accounting											Bilanzierung
 unlock_special_gangs												Banden
 
 unlock_electricity_caption											Erlaubt die Installation von Generatoren und elektrischen Kabeln, welche Elektrizit^t f_r alle Objekte bereitstellt.
@@ -748,10 +748,10 @@ unlock_electricity_caption											Erlaubt die Installation von Generatoren un
 click_to_continue													Klicke um fortzufahren...
 incoming_call														Eingehender Anruf...
 
-adviser_name_none													Kein
+adviser_name_none													Keiner
 adviser_name_ceo													Der CEO
 adviser_name_warden													Vater Winter
-adviser_name_governer												Der Direktor
+adviser_name_governer												Der Gouverneur
 adviser_name_chief													Der Sicherheitschef
 adviser_name_doctor													Der Arzt
 adviser_name_kingpin												Der KingPin
@@ -767,7 +767,7 @@ adviser_name_priest													Der Pfarrer
 
 report_staff														Personal
 report_prisoners													Gefangene
-report_jobs															ToDo
+report_jobs															Aufgaben
 report_needs														Bed_rfnisse
 report_threats														Gef^hrdung
 report_regime														Tagesplanung
@@ -778,10 +778,10 @@ report_valuation													Gef^ngniswert
 report_contraband													Schmuggel
 
 report_staff_title													Personal *X
-report_staff_group_builders											Arbeiter
+report_staff_group_builders											Schneemann
 report_staff_group_guards											Wachen
 report_staff_group_staff											Personal
-report_staff_group_administrators									Administratoren
+report_staff_group_administrators									Verwalter
 report_staff_group_prisoners										Gefangene
 report_staff_group_prisoners_high									Hohes Risiko
 report_staff_group_prisoners_normal									Normales Risiko
@@ -802,7 +802,7 @@ valuation_finemurder												[Strafe] Ungel`ste Morde
 valuation_fineescape												[Strafe] Geflohene Gefangene
 valuation_total														GESAMT
 valuation_sell														VERKAUFEN
-valuation_sell_tooltip												Wenn du dein Gef^ngnis verkaufst kannst du ein neues Gef^ngnis von Grund auf bauen. Der Wert des aktuellen Gef^gnisses wird dir zur Verf_gung gestellt um es im neuen Gef^ngnis auszugeben.\nDu wirst das Gef^ngnis zwar weiter spielen k`nnen, aber du kannst ein Gef^gnis nur einmal verkaufen. Jeder Profit wird auf dein neues Gef^gnis _bertragen.
+valuation_sell_tooltip												Wenn du dein Gef^ngnis verkaufst kannst du ein neues Gef^ngnis bauen. Der Wert des aktuellen Gef^gnisses wird dir zur Verf_gung gestellt um es auf der neuen Karte auszugeben.\nDu wirst das alte Gef^ngnis zwar weiter spielen k`nnen, aber du kannst jedes Gef^gnis nur einmal verkaufen. Jeder Profit wird auf dein neues Gef^gnis _bertragen.
 valuation_sold														Dieses Gef^ngnis wurde f_r *X verkauft
 valuation_donotown													Du kannst kein Gef^ngnis verkaufen, dass dir nicht geh`rt
 
@@ -810,7 +810,7 @@ salecondition_title													VERKAUFSAUFLAGEN
 salecondition_cannotsell											Du kannst dein Gef^ngnis nicht verkaufen, solange folgende Bedingungen nicht erf_llt sind:
 salecondition_minimumvalue											Minimaler Verkaufswert ` $50,000
 salecondition_cashflow												Kein t^glicher Verlust
-salecondition_accountant											Accountant on site
+salecondition_accountant											Buchhalterin eingestellt
 salecondition_minprisoners											Mindestens 20 Gefangen im Gef^ngnis
 
 policy_title														ZWISCHENFALL
@@ -840,7 +840,7 @@ job_searchcell														Zelle durchsuchen
 job_searchcellblock													Zellenblock durchsuchen
 job_improvecellindoor												S^ubert Innenbereich
 job_improvecelloutdoor												S^ubert Au;enbereich
-job_opendoor														|ffne abgeschlossene T_r
+job_opendoor														|ffnet abgeschlossene T_r
        
 finances_title														Finanzen
 finances_income														Einkommen
@@ -856,8 +856,8 @@ meal_cost															Kosten pro Gefangenen
 ###INFO### 			Needs - Actions - Bio etc																																												###INFO###
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 
-action_poo															Poo
-action_wee															Wee
+action_poo															Kackt
+action_wee															Pinkelt
 action_wash															Duscht
 action_relax														Entspannt
 action_sleep														Schl^ft
@@ -874,9 +874,9 @@ action_stealspoon													Verh^lt sich auff^llig
 action_urinate														Pinkelt
 action_soilsuit														Verschmutzt Anzug
 action_eat															Isst
-action_complain														Beschwerend
+action_complain														Beschweren sich
 action_work															Arbeitet
-action_visitation													Besuch
+action_visitation													Besucht
 
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 ###INFO### 			Nameplate status																																														###INFO###
@@ -891,7 +891,7 @@ nameplate_injured													Verletzt
 nameplate_unconscious												Bewusstlos
 nameplate_dead														TOT
 nameplate_released													ENTLASSEN
-nameplate_researching												Erforschend
+nameplate_researching												Freischaltend
 
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 ###INFO### 			Status Effects																																															###INFO###
@@ -916,7 +916,7 @@ objective_caption_meals												Mahlzeiten
 objective_readceosletter											Lies den Brief des CEOs
 objective_actionrequired											Vorf^lle
 
-objective_prisonerintake											Neuzulauf von Gefangenen
+objective_prisonerintake											Neuaufnahme von Gefangenen
 objective_intake_arrivals											*X Gefangene kommen in:
 objective_intake_closed												Du hast das Gef^ngnis f_r neue
 objective_intake_closed2											Insassen geschlossen
@@ -935,29 +935,29 @@ objective_reststaff_resting											(*X ruhen sich aus)
 objective_reststaff_needstaffroom									Baue einen Personalraum, damit sie sich ausruhen k`nnen.
 
 objective_grant_bootstraps											Vertrag: Grundlegende Haftanstalt
-objective_grant_bootstraps_description								Verwandel ein leeres Feld zu einem funktionsf^higes Gef^ngnis. Dieser staatlicher Vertrag gibt dir genug Gelder um ein sehr grundlegendes Gef^ngnis f_r deine ersten Gefangenen zu bauen.
+objective_grant_bootstraps_description								Verwandel ein leeres Feld zu einem funktionsf^higem Gef^ngnis. Dieser staatlicher Vertrag gibt dir genug Gelder um ein grundlegendes Gef^ngnis f_r deine ersten Gefangenen zu bauen.
 objective_grant_bootstraps_holdingcell								Baue eine @bergangszelle
 objective_grant_bootstraps_shower									Baue einen Duschraum
-objective_grant_bootstraps_yard										Erstelle einen Hof
+objective_grant_bootstraps_yard										Baue einen Hof
 objective_grant_bootstraps_kitchen									Baue eine K_che
 objective_grant_bootstraps_canteen									Baue eine Kantine
 objective_grant_bootstraps_guard									Stelle mindestens zwei Wachen ein
 objective_grant_bootstraps_chef										Stelle mindestens zwei K`che ein
 
-objective_grant_administration										Vertrag: Administrations-Center
-objective_grant_administration_description							Jedes Gef^ngnis braucht eine funktionst_chtige Gef^ngnisleitung um sicher zu stellen, dass das Gef^ngnis glatt l^uft und finanzierbar bleibt. Dieser Vertrag stellt genug Geld f_r Vater Winter, einen Buchf_hrer und zwei B_ros zur Verf_gung.
+objective_grant_administration										Vertrag: Verwaltung
+objective_grant_administration_description							Jedes Gef^ngnis braucht eine funktionst_chtige Gef^ngnisleitung um sicherzustellen, dass das Gef^ngnis problemlos l^uft und finanzierbar bleibt. Dieser Vertrag stellt genug Geld f_r Vater Winter, eine Buchhalterin und zwei B_ros zur Verf_gung.
 objective_grant_administration_offices								Baue zwei B_ros
 objective_grant_administration_warden								Stelle Vater Winter ein
-objective_grant_administration_accountant_research					Schalte "Fianzbuchf_hrung" _ber das Forschungsmenu frei
-objective_grant_administration_accountant							Stelle einen Buchhalter ein
+objective_grant_administration_accountant_research					Schalte "Buchhaltung" _ber das Forschungsmenu frei
+objective_grant_administration_accountant							Stelle eine Buchhalterin ein
 
 objective_grant_firstcellblock										Vertrag: Zellenblock A
-objective_grant_firstcellblock_description							Die Basen sind errichten und laufen. Es ist nun Zeit um deinen ersten Zellenblock zu bauen und die bereits existierenden Gefangenen darin zu quatieren.
+objective_grant_firstcellblock_description							Das Grundgerüst sind errichtet und l^uft. Es ist nun Zeit, um deinen ersten Zellenblock zu bauen und die bereits eingelieferten Gefangenen darin einzuquatieren.
 objective_grant_firstcellblock_cells								Erh`he deine Gefangenenkapazit^t auf 15
 
-objective_grant_health												Subvention: Psychisches und Physisches Wohlergehen
-objective_grant_health_description									Sowohl die psychische als auch die physische Gesundheit der Gefangenen ist sehr wichtig f_r uns. Diese Subvention gibt dir genug Geld um Beides durch Psychologen und \rtze zu unterst_tzen.
-objective_grant_health_ward											Baue ein Spital
+objective_grant_health												Subvention: Psychisches und physisches Wohlergehen
+objective_grant_health_description									Sowohl die psychische als auch die physische Gesundheit der Gefangenen ist sehr wichtig f_r uns. Diese Subvention gibt dir genug Geld um beides durch Psychologen und \rtze zu unterst_tzen.
+objective_grant_health_ward											Baue eine Krankenstation
 objective_grant_health_doctors										Stelle mindestens zwei \rzte ein
 objective_grant_health_psychologist									Stelle ein Psychologen ein (Ben`tigt ein B_ro)
 
@@ -980,7 +980,7 @@ object_door															T_r
 object_solitarydoor													Schwere Gef^ngnist_r
 object_staffdoor													Personalt_r
 object_roadgate														Stra;entor
-object_jailbars														Jail Bars
+object_jailbars														Gitterst^be
 object_window														Fenster
 object_windowlarge													Gro;es Fenster
 object_tree															Baum
@@ -1000,7 +1000,7 @@ object_ingredientscooked											Zutaten (Gekocht)
 object_meal															Mahlzeit
 object_foodtray														Tablett
 object_foodtraydirty												Tablett (Dreckig)
-object_grassturf													Fertigrasen
+object_grassturf													Rollrasen
 object_prisoneruniform												Gefangenenuniform
 object_dirtyprisoneruniform											Gefangenenuniform (Dreckig)
 object_crumpledprisoneruniform										Gefangenenuniform (Zerknittert)
@@ -1048,7 +1048,7 @@ object_morgueslab													Leichenbahre
 object_equipment													Ausr_stung
 object_prop															Prop
 object_dummy														Attrappe
-object_powerstation													Kraftwerk
+object_powerstation													Generator
 object_capacitor													Kondensator
 object_electricalcable												Kabel
 object_powerswitch													Netzschalter
@@ -1079,17 +1079,17 @@ object_guardlocker													W^chter-Schlie;fach
 object_sofachairsingle												Sofa
 object_sofachairdouble												Breites Sofa
 object_drinkmachine													Getr^nkeautomat
-object_arcadecabinet												Arcade-Automat
+object_arcadecabinet												Spielautomat
 object_radio														Radio
-object_bookshelflarge												B_cherei-Regal
+object_bookshelflarge												Gro;es B_cherregal
 object_weaponrackshotguns											Waffenst^nder (Schrotflinten)
 object_weaponrackrifles												Waffenst^nder (Gewehre)
 object_treestump													Baumstumpf
-object_dismantleobject												Abrei;en
+object_dismantleobject												Abmontieren
 object_dismantleutility												Abrei;en
 object_sellobject													Verkaufen
 
-material_none														Keins
+material_none														Keines
 material_building													Bauen
 material_demolish													Planieren
 material_demolishwalls												Abrei;en
@@ -1099,13 +1099,13 @@ material_sand														Sand
 material_pavingstone												Gehwegplatte
 material_grass														Gras
 material_gravel														Kies
-material_road														Teer
+material_road														Asphalt
 material_roadmarkings												Stra;enmakierung
 material_roadmarkingsleft											Stra;enmakierung (Links)
 material_roadmarkingsright											Stra;enmakierung (Rechts)
 material_stone														Steinplatten
 material_fence														Zaun
-material_concretetiles												Betonfliesen
+material_concretetiles												Betonplatten
 material_concretefloor												Betonboden
 material_woodenfloor												Holzboden
 material_ceramicfloor												Keramikboden
@@ -1119,7 +1119,7 @@ material_brickwall													Ziegelsteinmauer
 material_perimeterwall												Sicherheitswall
 material_burntfloor													Verbrannter Boden
 material_burntwall													Verbrannte Wand
-material_buildingframe												Building Frame
+material_buildingframe												Bauger_st
 material_roof														Dach
 
 room_none															Keine
@@ -1131,27 +1131,27 @@ room_kitchen														K_che
 room_shower															Duschraum
 room_yard															Hof
 room_storage														Lager
-room_deliveries														Anlieferungen
+room_deliveries														Lieferungen
 room_garbage														Abfall
 room_execution														Hinrichtungsraum
 room_workshop														Werkstatt
 room_security														Sicherheitsb_ro
 room_office															B_ro
-room_medicalward													Spital
+room_medicalward													Krankenstation
 room_morgue															Leichenhalle
 room_commonroom														Gruppenraum
 room_laundry														W^scherei
 room_visitation														Besucherzimmer
 room_cleaningcupboard												Putzkammer
 room_kennel															Hundezwinger
-room_armoury														R_stkammer
+room_armoury														Waffenkammer
 room_staffroom														Personalraum
 room_library														B_cherei
 
 equipment_none														Keine
 equipment_fists														F^uste
 equipment_baton														Schlagstock
-equipment_shank														Shank
+equipment_shank														Schaft
 equipment_knife														Messer
 equipment_fork														Gabel
 equipment_gun														Revolver
@@ -1164,7 +1164,7 @@ equipment_saw														S^ge
 equipment_jailkeys													Gef^ngnisschl_ssel
 equipment_mobilephone												Handy
 equipment_lighter													Feuerzeug
-equipment_screwdriver												Schraubenzieher
+equipment_screwdriver												Schraubendreher
 equipment_drugs														Drogen
 equipment_sheers													Sheers
 equipment_mop														Wischmop
@@ -1181,23 +1181,23 @@ equipment_scissors													Schere
 equipment_medicine													Medizin
 equipment_shotgun													Schrotflinte
 equipment_moneybag													Geldbeutel
-equipment_tazer														Tazer
+equipment_tazer														Elektroschocker
 equipment_guarduniform												W^chteruniform
-equipment_stabvest													Kevlar
+equipment_stabvest													Kevlar-Weste
 equipment_rifle														Gewehr
 
 research_none														Keine
-research_warden														Gef^gnisdirektor
+research_warden														Vater Winter
 research_maintainance												Wartung
 research_security													Sicherheit
-research_legal														Anwalt
-research_mentalhealth												Mentale Gesundheit
+research_legal														Recht
+research_mentalhealth												Psychologie
 research_finance													Buchf_hrung
 research_landexpansion												Expansion
 research_cctv														@berwachung
 research_riotguards													Bereitschafspolizei
 research_health														Gesundheit
-research_cleaning													Putzfummel
+research_cleaning													Reinigung
 research_groundskeeping												Gartenpflege
 research_clone														Klonen
 research_deployment													Stationierung
@@ -1236,7 +1236,7 @@ object_firemen_hosehelp												Halte H gedr_ckt um mit dem Wasserschlauch zu
 
 object_inactive														INAKTIV
 object_cctv_moremonitors											Baue mehr Monitore
-object_cctvmonitor_needsguards										Ben`tigt Wache innerhalb der Sichtzone
+object_cctvmonitor_needsguards										Ben`tigt Wache vor den Monitoren
 
 administrator_requiresoffice										Ben`tigt B_ro
 
@@ -1251,7 +1251,7 @@ contraband_smuggledin												Hereingeschmuggelt von einem Gefangenen, vor *Y
 staff_exhausted														Ersch`pft
 staff_tired															M_de
 dog_exhausted														Ersch`pft
-dog_needskennel														Hunde brauchen einen Hundezwinger um schlafen zu k`nnen
+dog_needskennel														Hunde brauchen einen Hundezwinger, um schlafen zu k`nnen
 
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 ###INFO###			 Einführung: Der Todestrakt																																												###INFO###
@@ -1285,10 +1285,10 @@ adviser_deathrowintrob_1											Wollen wir ihn also nicht lange warten lassen
 adviser_deathrowintrob_2											Der erste Schritt bei jedem Projekt ist es das Geb^ude selber zu errichten - mit genug Platz f_r einen Hinrichtungsraum und eine kleine Zelle.
 adviser_deathrowintrob_3											Also los geht's. Errichte das neue Geb^ude hier.
 
-adviser_deathrow_explain1											Deine Arbeiter sind f_r den Bau der Geb^ude verantwortlich.
+adviser_deathrow_explain1											Deine Schneem^nner sind f_r den Bau der Geb^ude verantwortlich.
 adviser_deathrow_explain2											Sie werden Stahlstreben und Beton aus dem Lager oder firsch vom LKW holen und es zu der Baustelle bringen.
 adviser_deathrow_explain3											Diese Rohmaterialien werden sie nutzen um das Fundament und das Ger_st zu konstruieren.
-adviser_deathrow_explain4											W^hrend deine Arbeiter dein Geb^ude fertig stellen hast du genug Zeit um das weitere Vorgehen zu planen.
+adviser_deathrow_explain4											W^hrend deine Schneem^nner dein Geb^ude fertig stellen hast du genug Zeit um das weitere Vorgehen zu planen.
 adviser_deathrow_explain5											W^hrend wir warten schau' dich ein wenig um. Nutze die W A S D - Tasten oder die Pfeiltasten um dich umzusehen und nutze das Mausrad um n^her oder weiter weg vom Geschehen zu sein.
 
 objective_deathrow_building											Baue ein neues Geb^ude f_r die Hinrichtungskammer
@@ -1363,7 +1363,7 @@ adviser_deathrowelectricityb_2										Jedes Geb^ude in diesem Gef^ngnis ist mi
 adviser_deathrowelectricityb_3										Elektrizit^t ist durch den installierten Generator bereitgestellt.
 adviser_deathrowelectricityb_4										Wie du sehen kannst ist dieser komplette Gef^ngnisfl_gel ohne Elektrizit^t. S^mtliche Lichter sind aus.
 adviser_deathrowelectricityb_4b										Um dieses Problem zu beseitigen m_ssen wir zuerst in den Versorgungsmodus wechseln um zu sehen warum die Lampen aus sind.
-adviser_deathrowelectricityb_5										Die n^chstliegende Kabel sind zu weit weg. Unsere Arbeiter k`nnen die Lampen also nicht verkabeln.
+adviser_deathrowelectricityb_5										Die n^chstliegende Kabel sind zu weit weg. Unsere Schneem^nner k`nnen die Lampen also nicht verkabeln.
 adviser_deathrowelectricityb_6										Erweitere das elektrische Versorgungsnetz den Gang entlang, damit der Gef^ngnisfl_gel ausgeleuchtet werden kann.
 
 objective_deathrow_cellpower										Erweitere das elektische Versorgnungsnetz
@@ -1414,11 +1414,11 @@ clock_speed_half													...
 clock_add_hour														+
 
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
-###INFO### 			Lockdown Mod (v1.1) 																																													###INFO###
+###INFO### 			Lockdown Mod (Stevowevo77) (04/01/2014 - Änderung I) 																																					###INFO###
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 
 objective_grant_min_security										Sicherheit: Nur eine Vorsichtsma;name
-objective_grant_min_security_description							Ein funktionierendes Sicherheitssystem ist der Schl_ssel f_r ein sicheres und effizientes Gef^ngnis. Erf_lle die vorgegebenen sechs Ma;nahmen um dein Personal mit einer grundlegenden Sicherung zu sch_tzen.
+objective_grant_min_security_description							Ein funktionierendes Sicherheitssystem ist der Schl_ssel f_r ein sicheres und effizientes Gef^ngnis. Erf_lle die vorgegebenen sechs Ma;nahmen, um dein Personal sch_tzen zu k`nnen.
 objective_grant_min_security_solitary								Baue drei Isolationszellen
 objective_grant_min_security_office									Baue drei Sicherheitsb_ros
 objective_grant_min_security_cctv									Installiere drei Kameras
@@ -1442,7 +1442,7 @@ objective_grant_dogs_crate											Platziere mindestens drei Hundeboxen
 objective_grant_dogs_handler										Stelle mindestens drei Hundef_hrer ein
 
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
-###INFO### 			New Grants Mod (v1.8.2) 																																												###INFO###
+###INFO### 			New Grants Mod (Xathz and LDShadowLord) (04/01/2014 - Änderung IV)  																																	###INFO###
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 
 objective_grant_book_worms_inmates									Subvention: B_cherwurm
@@ -1466,7 +1466,7 @@ objective_grant_family_matters_description							Der Verband der "V^ter im Gef^n
 objective_grant_family_matters_Phones								Installiere 5 Telefone
 
 objective_grant_metal_detectors										Subvention: Oje, Oje!
-objective_grant_metal_detectors_description							Heute ist ein Tag der Trauer. In einem der anderen Gef^ngnisse haben sich etliche Gefangene abgeschlatet. Um sowas in unserem Gef^ngnis zu vereiteln wurden wir gebeten Metalldetektoren aufzustellen.
+objective_grant_metal_detectors_description							Heute ist ein Tag der Trauer. In einem der anderen Gef^ngnisse haben sich etliche Gefangene abgeschlachtet. Um sowas in unserem Gef^ngnis zu vereiteln wurden wir gebeten Metalldetektoren aufzustellen.
 objective_grant_metal_detectors_MT									Installiere 6 Metalldetektoren
 
 Objective_Grant_Exercice											Subvention: Schinken ist aus - Training ist angesagt.
@@ -1476,7 +1476,7 @@ Objective_Grant_Exercice_2											Schalte "Gartenpflege" frei
 Objective_Grant_Exercice_Benchs										Platziere 4 Gewichtsb^nke
 
 objective_Water_Land												Subvention: Ein Wasser-Wunderland
-objective_Water_Land_description									Das edle "Gef^ngnis-Hygiene-Kommitee" hat festgestellt, dass das Hygienelevel nicht hoch genug ist. Versuche das Problem zu beseitigen.
+objective_Water_Land_description									Das edle "Gef^ngnis-Hygiene-Kommitee" hat festgestellt, dass das Hygiene-Level nicht hoch genug ist. Versuche das Problem zu beseitigen.
 objective_Water_Land_pump											Installiere eine weitere Pumpstation
 objective_Water_land_drain											Installiere 2 Abfl_sse
 objective_Water_Land_sh												Installiere 2 Duschk`pfe
@@ -1484,7 +1484,7 @@ objective_Water_Land_room											Errichte einen Duschraum
 
 objective_Grant_Laundromat											Subvention: Stinkesocken
 objective_Grant_Laundromat_description								Igitt! Die ganzen G^nge sticken schon nach den dreckigen Klamotten der Insassen. Baue eine W^scherei und bsch^ftige einige Gefangene darin!
-objective_Grant_Laundromat_Machines									Installiere 2 Waschmschienen
+objective_Grant_Laundromat_Machines									Installiere 2 Waschmaschinen
 objective_Grant_Laundromat_Baskets									Platziere 2 W^schek`rbe
 objective_Grant_Laundromat_1										Schalte "Zwangsarbeit" frei
 objective_Grant_Laundromat_Room										Errichte eine W^scherei
@@ -1531,25 +1531,25 @@ objective_Grant_StaffRoom_DrinkMachine								Installiere ein Getr^nkeautomat
 objective_Grant_StaffRoom_Sofa										Platziere 3 breite Sofas
 
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
-###INFO### 			Additional Grants and Contracts (v0.1) 																																									###INFO###
+###INFO### 			Additional Grants and Contracts (Cartmen180) (04/01/2014 - Änderung VIII)																																###INFO###
 ###INFO### ===============================================================================================================================================================================================================  ###INFO###
 
 objective_grant_secondcellblock										Vertrag: Zellenblock B
-objective_grant_secondcellblock_description							Zellenblock A l^uft, aber neue Gefangene brauchen neue Zellen. Es ist zeit mit f_r einen weiteren Zellenblock, mehr Wachen und einem Sicherheitschef.
-objective_grant_secondcellblock_cells								Erh`he deine Zellenzahl auf 30
+objective_grant_secondcellblock_description							Zellenblock A ist in Betrieb, aber neue Gefangene brauchen neue Zellen. Es ist Zeit f_r einen weiteren Zellenblock, mehr Wachen und einen Sicherheitschef.
+objective_grant_secondcellblock_cells								Erh`he deine Kapazit^t auf 30
 objective_grant_chief												Stelle einen Sicherheitschef ein
-objective_grant_guards1												Stelle mindestene 6 Wachen ein
+objective_grant_guards1												Stelle mindestens 6 Wachen ein
 
 objective_grant_thirdcellblock										Vertrag: Zellenblock C
-objective_grant_thirdcellblock_description							Zellenblock B ist voll funktionst_chtig. Die Buchhalterin meinte etwas von wegen mehr Geld f_r mehr Gefangene?!...
-objective_grant_thirdcellblock_cells								Erh`he deine Zellenzahl auf 45
+objective_grant_thirdcellblock_description							Zellenblock B ist voll funktionst_chtig. Die Buchhalterin meinte etwas von wegen "[...]mehr Geld f_r mehr Gefangene[...]",?!...
+objective_grant_thirdcellblock_cells								Erh`he deine Kapazit^t auf 45
 
 objective_grant_fourthcellblock										Vertrag: Zellenblock D
 objective_grant_fourthcellblock_description							Zellenblock C l^uft anscheinend einigerma;en problemlos. Der Vorarbeiter schlug vor die Arbeitskraft des Gef^ngnisses etwas zu erh`hen.
-objective_grant_fourthcellblock_cells								Erh`he deine Zellenzahl auf 60
+objective_grant_fourthcellblock_cells								Erh`he deine Kapazit^t auf 60
 
 objective_grant_wing												Subvention: Trennung von Gefangenen
-objective_grant_wing_description									Dein Gef^ngnis hat sich durchaus vergr`;ert in den letzten Jahren. Vielleicht solltest du anfangen seperate Fl_gel zu bauen.
+objective_grant_wing_description									Dein Gef^ngnis hat sich durchaus vergr`;ert in den letzten Jahren. Vielleicht solltest du anfangen separate Fl_gel zu bauen.
 objective_grant_deployment											Schalte "Stationierung" frei
 
 objective_grant_minimum_security									Vertrag: Minimale Sicherheitszone
@@ -1561,8 +1561,72 @@ objective_grant_mis_tv												30 TV's
 objective_grant_mis_chair											30 St_hle
 
 objective_grant_maximum_security									Vertrag: Maximale Sicherheitszone
-objective_grant_maximum_security_description						Der Pr^sident hat bittet dich um einen Gef^ngnisfl_gel mit maximaler Sicherungsstufe, damit einige seiner Konkurrenten... "verschwinden".
+objective_grant_maximum_security_description						Der Pr^sident bittet dich um einen Gef^ngnisfl_gel mit maximaler Sicherungsstufe, damit einige seiner Konkurrenten... "verschwinden".
 objective_grant_mas_canteen											Kantine
 objective_grant_mas_commonroom										Gemeinschaftsraum
 objective_grant_mas_shower											Duschraum
 objective_grant_mas_yard											Hof
+
+objective_cleanclothes												Subvention: Saubere Sache(n)
+objective_cleanclothes_description									Deine Gefangenen brauchen alle paar Tage ein saubere Garnitur an Uniformen. Baue eine W^scherei, damit sie ihre eigenen Sachen waschen k`nnen.
+objective_cc_lm														2 Waschmaschinen
+objective_cc_lb														4 W^schek`rbe
+objective_cc_ib														2 B_gelbretter
+
+objective_grant_workshop											Subvention: Selbstfinanzierung
+objective_grant_workshop_description								Um dein Gef^ngnis selbstfinanzierend zu machen wirst du eine Werkstatt ben`tigen. Dort kannst du mit Nummernschildern und Holzplanken Geld f_r zuk_nftige Expansionen verdienen.
+objective_w_saw														Tischs^ge
+objective_w_press													Hydraulikpresse
+
+objective_landclearance												Industrie: Arbeit St^mmen
+objective_landclearance_description									Eine naheliegende S^gem_hle braucht mehr Holzst^mme. F^lle einige B^ume und lass die Reste in dein Lager bringen.
+objective_lc_logs													Habe 50 St^mme im Lager
+
+objective_licenseplates												Herausforderung: Nummernschilder
+objective_licenseplates_description									Produziere an einem Tag eine bestimmte Anzahl von Nummernschilder, um eine Belohnung zu erhalten
+objective_lp1_req													50 Nummernschilder
+objective_lp2_req													100 Nummernschilder
+objective_lp3_req													250 Nummernschilder
+
+
+###INFO### ===============================================================================================================================================================================================================  ###INFO###
+###INFO### 			Supreme Grants Collection Mod (DarkBBurning) (04/01/2014 - Änderung I)																																	###INFO###
+###INFO### ===============================================================================================================================================================================================================  ###INFO###
+
+objective_Grant_Cell_Block_B										Vertrag: Zellenblock B
+objective_Grant_Cell_Block_B_description							Zellenblock A ist fertiggestellt! Einige der Insassen wurden bereits in den neuen Block transferiert, aber es kommen noch mehr Gefangene. Wir brauchen einen weiteren Zellenblock!
+objective_Grant_Cell_Block_B_cells									Erh`he deine Kapazit^t auf 32
+
+objective_Grant_Cell_Block_C										Vertrag: Zellenblock C
+objective_Grant_Cell_Block_C_description							Wir haben eine Nachricht von der Gefangenen-Verwaltung bekommen. In der Nachricht steht: "[...] Neue Gefangene werden morgen in ihrem Gef^ngnis ankommen [...]". Unser aktueller Zellenblock ist allerdings voll. Zeit für Zellenblock C!
+objective_Grant_Cell_Block_C_cells									Erh`he deine Kapazit^t auf 48
+
+objective_Grant_Cell_Block_D										Vertrag: Zellenblock D
+objective_Grant_Cell_Block_D_description							Im letzen Jahr ist die Kriminalitätsrate stark gestiegen. Um mit diesem Zuwachs mitzuhalten, wurden bereits viele Gef^ngnisse ausgebaut. Es ist Zeit, dass auch wir damit beginnen.
+objective_Grant_Cell_Block_D_cells									Erh`he deine Kapazit^t auf 32
+
+objective_Grant_Cell_Block_E										Vertrag: Zellenblock E
+objective_Grant_Cell_Block_E_description							Wegen der wirtschaftlichen Kriese brauchen wir mehr Gefangene. Schlie;lich bekommen wir dadurch auch mehr Gelder vom Bund. Lasst uns einen neuen Zellenblock bauen und ihn mit Gefangenen f_llen
+objective_Grant_Cell_Block_E_cells									Erh`he deine Kapazit^t auf 80
+
+objective_Grant_Work_Leads_To_Money									Vertrag: Geld f_r Arbeit
+objective_Grant_Work_Leads_To_Money_description						Wir brauchen Geld und die Gefangenen liegen mit einem Strohhalm im Mund auf dem Hof und entspannen. Daran m_ssen wir etwas ^ndern! Ab sofort sollen die selber Hand mit anlegen, allerdings brauchen wir erst die Zustimmung der Ministerien daf_r.
+objective_Grant_Work_Leads_To_Money_Research						Schalte "Zwangsarbeit" frei
+
+objective_Grant_Workers_Need_A_Place_To_Work						Subvention: Ein Platz zum Arbeiten
+objective_Grant_Workers_Need_A_Place_To_Work_description			Wir haben bereits Erlaubnis Gefangene zur Zwangsarbeit zu verdonnern. Jetzt brauchen wir nur noch einen Platz f_r die Gefangenen zum Arbeiten. Danach hei;t es einfach nur noch: "Mehr Geld!"
+objective_Grant_Workers_Need_A_Place_To_Work_Press					Installiere 3 Hydraulikpressen
+objective_Grant_Workers_Need_A_Place_To_Work_Saw					Installiere 3 Tischs^gen
+objective_Grant_Workers_Need_A_Place_To_Work_Room					Baue eine Werkstatt
+
+objective_Grant_Workers_Need_A_Place_To_Work2						Subvention: Aufbau der Werkstatt
+objective_Grant_Workers_Need_A_Place_To_Work2_description			Nachdem wir nun auf einfache Art und Weise Geld verdienen, ist es nun Zeit das Gesch^ft weiter auszudehnen.
+objective_Grant_Workers_Need_A_Place_To_Work2_Press					Installiere 6 Hydraulikpressen
+objective_Grant_Workers_Need_A_Place_To_Work2_Saw					Installiere 6 Tischs^gen
+objective_Grant_Workers_Need_A_Place_To_Work2_Room					Besitze eine Werkstatt
+
+objective_Grant_Family_First										Subvention: Familie zuerst
+objective_Grant_Family_First_description							Es sind Gefangene, sie haben viel getan, aber keiner kann ohne seine Familie. 
+objective_Grant_Family_First_Table									Platziere 1en Besuchertisch
+objective_Grant_Family_First_Guard									Stelle eine Wache ein, die den Besucherraum _berwacht
+objective_Grant_Family_First_Room									Bauche einen Besucherraum.

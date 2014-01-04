@@ -1,4 +1,12 @@
 ===============================================
+Alpha 16+ v1.2 (04/01/2014)
+- "Lockdown Mod" aktualisiert
+- "New Grants Mod" aktualisiert
+- "Additional Grants and Contracts" aktualisiert
+- "Supreme Grants Collection Mod" hinzugefügt
+- Übersetzungen gelöschter Mods entfernt
+- Überarbeitungen der Übersetzung
+===============================================
 Alpha 16+ v1.1 (29/12/2013)
 - Neuer Thumbnail
 ===============================================
