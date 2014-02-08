@@ -1,0 +1,6 @@
+#Modifications to language files regarding Seasons - Valentines
+
+buildtoolbar_popup_room_workshop		Where you send your prisoners to die of boredom while making you valentine day's cards.
+object_sheetmetal                        Cardboard
+object_licenseplateblank                 Card (Blank)
+object_licenseplate                      Valentine day's card.

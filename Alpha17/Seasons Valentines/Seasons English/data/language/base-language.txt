@@ -1,0 +1,4 @@
+buildtoolbar_popup_room_workshop		Where you send your prisoners to die of boredom while making you valentine day's cards.
+object_sheetmetal                        Cardboard
+object_licenseplateblank                 Cards (Blank)
+object_licenseplate                      Valentine Day's cards

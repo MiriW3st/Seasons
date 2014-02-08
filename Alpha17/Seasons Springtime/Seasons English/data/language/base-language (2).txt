@@ -1,0 +1,4 @@
+﻿object_workman                           Snowman
+object_warden                            Old Man Winter
+research_warden                         Old Man Winter
+adviser_name_warden                     Old Man Winter
