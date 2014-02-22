@@ -1,0 +1,4 @@
+buildtoolbar_popup_room_workshop		Gdzie zmuszasz swoich wi}&ni~w do niewolniczej pracy nad Kartkami Walentynkowymi
+object_sheetmetal                        Papier
+object_licenseplateblank                 Kartki (Puste)
+object_licenseplate                      Kartki Walentynkowe
